@@ -118,29 +118,40 @@ header {
 }
 
 /* Responsive */
+
+/* 1. Geniş Kapsayıcı Ayarı (700px ve altı) */
 @media (max-width: 700px) {
     /* Yatay telefon ve küçük tabletler için 700px altı */
     .grid, .product-list {
-        /* Ekranın %97'sini kullan, cihaz kenarlarına daha yakın olsun */
+        /* Yatayda boşluk kalmaması için kenar boşluğunu (margin) kaldırıp %97 genişlik kullan */
         max-width: 97vw; 
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
     }
 }
 
-/* YENİ EKLEME: Yatay Telefon (Landscape) Görünümü (481px - 700px) */
-/* Bu aralıkta 3 sütun göster */
+/* 2. YATAY TELEFON/KÜÇÜK TABLET Görünümü (481px - 700px) */
+/* Amacımız burada 3 sütunu kesinleştirmek */
 @media (min-width: 481px) and (max-width: 700px) {
     .grid {
         grid-template-columns: repeat(3, 1fr); /* 3 eşit sütun */
-        gap: 0.8rem; /* Biraz boşluğu azalt */
+        gap: 0.5rem; /* Boşluğu minimuma indiriyoruz */
+        max-width: 100%; /* Kapsayıcının %100'ünü kullan */
+        margin: auto; /* Merkezleme */
     }
     .category-title {
-        font-size: 1rem; /* Başlık boyutunu biraz küçült */
+        font-size: 0.95rem; /* Başlık boyutunu biraz daha küçültüyoruz */
+        padding: 0.4rem;
+    }
+    .category-card {
+        height: 100px; /* Kart yüksekliğini biraz düşürüp daha az yer kaplamasını sağla */
     }
 }
 
+/* 3. Dikey Telefon Görünümü (480px ve altı) */
 @media (max-width: 480px) {
-    /* Dikey Telefon (Portrait) Görünümü (480px ve altı) */
     .grid {
         grid-template-columns: 1fr; /* Tek sütun kalsın */
+        margin: 0 10px; /* Kenarlardan biraz boşluk bırak */
     }
 }
