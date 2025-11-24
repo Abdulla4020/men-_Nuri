@@ -1,0 +1,248 @@
+{
+  "categories": [
+    {
+      "name": "Sıcaklar",
+      "image": "https://cevatusta.com.tr/wp-content/uploads/2020/11/Karisik-Kebap.jpg",
+      "products": [
+        {"name":"Kıyma Tabak Servis","desc":"","image":"https://www.irankulturmerkezi.com/wp-content/uploads/2021/03/KUBIDE-1280x640.jpg","price":250},
+        {"name":"Kuzu Kuşbaşı Tabak servis","desc":"","image":"https://guvendefaskasap.com/wp-content/uploads/2023/06/Kuzu-Kusbasi-Sis-Izgara.jpg","price":250},
+        {"name":"Dana Kuşbaşı Tabak Servis","desc":"","image":"https://guvendefaskasap.com/wp-content/uploads/2023/06/Dana-Kusbasi-Sis-Izgara.jpg","price":260},
+        {"name":"Ciğer Tabak Servis","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/ciger_sis_10_11zon.webp","price":250},
+        {"name":"Tavuk But","desc":"","image":"https://tokatosmanpasabutikotel.com/image/cache/catalog/urun/urun/tavuk-sis-550x550.jpg","price":230},
+        {"name":"Tavuk Göğüs","desc":"","image":"https://cdn.pixabay.com/photo/2013/03/02/02/40/barbecue-89166_1280.jpg","price":230},
+        {"name":"Tavuk Pirzola","desc":"","image":"https://burcakcafebistro.com/image/cache/catalog/r%C3%BCnler/zgara%20Tavuk%20Pirzola-550x550h.jpg","price":250},
+        {"name":"Tavuk Kanat","desc":"","image":"https://cdn.pixabay.com/photo/2019/02/16/14/56/chicken-wings-4000442_1280.jpg","price":240},
+        {"name":"Fıstıklı Beyti","desc":"","image":"https://www.yesilkapikebap.com/wp-content/uploads/2020/04/beyti.jpg","price":350},
+        {"name":"Et Pirzola","desc":"","image":"https://cdn.nebyandogal.com/content/img_cache/660/0/masala-soslu-karayaka-kuzu-pirzola_1.jpg","price":400},
+        {"name":"Sarma Beyti","desc":"","image":"https://hayalperest.karekodmenu.net/upload/service/kiyma-harbiye-durum.jpg","price":350},
+        {"name":"Tavuk But Dürüm","desc":"","image":"https://buryani.com/wp-content/uploads/2023/01/TAVUK-SIS-DURUM.jpeg","price":150},
+        {"name":"Kuşbaşı Dürüm","desc":"","image":"https://durumcuisausta.com/wp-content/uploads/2024/05/44564774.webp","price":170},
+        {"name":"Tavuk Şiş Dürüm","desc":"","image":"https://avatars.mds.yandex.net/i?id=298f1b4f2b974d54a637001cff2821182e5057d8-5037427-images-thumbs&n=13","price":150},
+        {"name":"Kıyma  Dürüm","desc":"","image":"https://matoet.com.tr/wp-content/uploads/2025/01/durum.jpg","price":170},
+        
+        {"name":"Ciğer Dürüm","desc":"","image":"https://www.mirzausta.com/wp-content/uploads/2021/01/maxresdefault-e1612083183996.jpg","price":150},
+        {"name":"Tepsi Et","desc":"","image":"https://cdn.tarifikolay.com/public/tt/img/tepsi-kebabi_4x3_1565-900x900.jpg","price":360},
+        {"name":"Tavuk Beyti","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Tavuk-Kebap.jpg","price":200},
+        {"name":"Kuşbaşı Tava","desc":"","image":"https://img-s1.onedio.com/id-5fb6d22e17dbac453c2f9ee6/rev-0/w-600/h-398/f-jpg/s-04ee6f987b5cc83ec2e336dddd30760e3a5b06c0.jpg","price":380},
+        {"name":"Kağıt Kebabı","desc":"","image":"https://i.ytimg.com/vi/cnMi-w5--lY/maxresdefault.jpg","price":350},
+        {"name":"Kuyruk Yağı","desc":"","image":"https://static.ticimax.cloud/40901/uploads/urunresimleri/buyuk/kuzu-kuyruk-yagi-dcff17.jpg","price":150},
+        
+        {"name":"Fındık Lahmacun (5 adet)","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADSNfzvGVPX61k9HAVGvanDcoMod9ys3zAw&s","price":230},
+        
+        {"name":"Kıyma Ciğer Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":340},
+        {"name":"Kuşbaşı Ciğer Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":340},
+        {"name":"Tavuk Kuşbaşı Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":300},
+        {"name":"Tavuk Ciğer Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":300},
+        {"name":"Kıyma Kuşbaşı Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":340},
+        {"name":"Kıyma Tavuk Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":300},
+        {"name":"Steak","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0r1yUOkufxQ7D9Qzit44msR09VJdDXsB9Q&s","price":820},
+
+        {"name":"Patlıcan Kebabı","desc":"","image":"https://image.milimaj.com/i/milliyet/75/0x410/5ebaa41155428519a8ccbe76.jpg","price":360},
+        {"name":"Karides","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/3_6_11zon-688.webp","price":500},
+        {"name":"Şaşlık Kebabı","desc":"","image":"https://www.zubeydesaracoglu.com/wp-content/uploads/2018/12/saslik-kebabi-6.jpeg","price":450},
+        {"name":"Koç Yumurtası","desc":"","image":"https://i.ytimg.com/vi/VIZWCkaeyAs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdTOxMP85C8WYAjchPDRb_UDtksA","price":200},
+        {"name":"Kazbaşı Et","desc":"","image":"https://sifirbirkebap.com.tr/wp-content/uploads/2023/06/Kazbasi-0.jpg","price":550},
+        {"name":"Et Sote","desc":"","image":"https://www.yemek24.com/wp-content/uploads/2020/04/Kiremitte-Et-Sote.jpg","price":380},
+        {"name":"Tavuk Sote","desc":"","image":"https://mezebahce.com.tr/pseeckar/2024/11/TAVUK-SOTE1.jpg","price":300},
+        {"name":"Kaşarlı Mantarlı Tavuk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5Oxhfo1YYRY-9EV4dLhpDbtCST7D4K6SiA&s","price":300},
+        {"name":"Kaşarlı Tavuk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWb3BVxhMckLDhgRMEk6DT_tj_H9MuV0CAbFVmRHMSC1M1J9MwG2Mk9aIGREPVtVjQNCM&usqp=CAU","price":280},
+        {"name":"Kalamar","desc":"","image":"https://baliktarifi.com/wp-content/uploads/2016/01/tavada-kitir-kalamar-tarifi-500x375.jpg","price":500},
+        {"name":"Karışık Pide","desc":"","image":"https://media-cdn.tripadvisor.com/media/photo-p/13/db/5a/b8/karisik-pide.jpg","price":300},
+        {"name":"Kaşarlı Pide","desc":"","image":"https://redpineguesthouse.com/wp-content/uploads/2025/05/1719392687667bd9af4ef8f.jpg","price":170},
+        {"name":"Kuşbaşı Pide","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/kusgkasg_10.webp","price":240},
+        {"name":"Kıymalı Pide","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_5JVufxQD8gSBfqlhS_NYk1TibqMoaNPYw&s","price":240},
+        {"name":"Kuzu Kül Bastı","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge/kuzu-kulbasti-a6dfcb90-4693-4bf6-8c72-298068d098a5","price":420},
+        {"name":"Halep Kebabı","desc":"","image":"https://media.cumhuriyet.com.tr/Archive//2025/1/15/2289468/kapak_112749.jpg","price":500},
+        {"name":"Biftek","desc":"","image":"https://samsunozdiyarbakir.com/wp-content/uploads/2025/05/biftek.webp","price":600},
+        {"name":"Çifteli Lahmacun","desc":"","image":"https://media.istockphoto.com/id/1370763091/tr/foto%C4%9Fraf/turkish-foods-turkish-pizza-lahmacun.jpg?s=612x612&w=0&k=20&c=HAXK8qe4QbQ6Srbv5R0rTa4wSn5-xMQ9Pj8HpFF5aVI=","price":250},
+  
+        {"name":"Bonfile","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-secondary/mukemmel-et-nasil-pisirilir-314a2432-6096-47e3-95c8-fa3e5a311da5.jpg","price":600},
+        {"name":"Hamsi","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12mHj_eDyXQUaTUCXj73HuWEOkkajszJKrw&s","price":450},
+        {"name":"Lokum Et Bonfile","desc":"","image":"https://www.balikesireti.com/image/cache/data/products/dana-bonfile-600x582-1000x1000.jpg","price":600},
+        {"name":"Yaprak Steak","desc":"","image":"https://d329st1qht6i0g.cloudfront.net/wp-content/uploads/sites/4/2021/01/16161646/Scotch-Fillet-Steak.png","price":600}
+      ]
+    },
+    {
+      "name": "Soğuk Mezeler",
+      "image": "https://parkbalik.com/wp-content/uploads/2025/08/soguk-meze-cesitleri-en-lezzetli-soguk-mezeler-1.webp",
+      "products": [
+        {"name":"Zeytinyağlı Humus","desc":"","image":"https://i0.wp.com/sevgilimutfak.com/wp-content/uploads/2016/10/humus.jpg","price":160},
+        {"name":"Tereyağlı Humus","desc":"","image":"https://yedikardesler.com/wp-content/uploads/2021/12/236493848.jpeg","price":220},
+        {"name":"Süzme Yoğurt","desc":"","image":"https://i.lezzet.com.tr/images-800x600/yogurtlu-meze-tarifleri--bs64-5e5234cd-e957-4a4e-91b7-e845b4c97200","price":140},
+        {"name":"Babagannüç","desc":"","image":"https://i.ytimg.com/vi/fyngdPJx9XU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCawZGhf55ZEbBk02UC8aTGqHWnIg","price":140},
+        {"name":"Patlıcan Yoğurtlama","desc":"","image":"https://lh4.googleusercontent.com/proxy/8SNmQkZ6B6-44ADPNAP38QxzTQGz33P0Gpa6vI6cZvBShYZYasXy2vAvnNB5S6GyTcleW4CuVI1dlbh7Iy48AcX6lPNcOJx67KFdKVso1Rb-x8gkmY5SDEEgYDfzKhd1hGUthQ","price":140},
+        {"name":"Biber Yoğurtlama","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOh3fiIq835JqaU_lrIRX-GlHiC-7IiIHVGA&s","price":140},
+        {"name":"Zengin","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMqYUrtpIErD68Au731TPbHsCMmoH-IdJvOQ&s","price":140},
+        {"name":"Cevizli Biber","desc":"","image":"https://isbh.tmgrup.com.tr/sbh/2020/05/17/cevizli-biber-1589695689560.jpg","price":140},
+        {"name":"Haydari","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPAI7hHLLP79pGKD-kVSLM6tLE_8V4VRxRQ&s","price":140},
+        {"name":"Prenses","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfC_Rwagq0RKVfGiFTBOE0w4bNevbAvI8XhzFG2ZCoABJQuLB39qQmKBj214LPzHvMtg&usqp=CAU","price":140},
+        {"name":"Roka Yoğurtlama","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/yogurtlu-roka-salatasi-tarifi-c77fcd9f-066b-45ae-a6c4-7b609b960033.jpg","price":140},
+        {"name":"Havuç Yoğurtlama","desc":"","image":"https://img.piri.net/piri/upload/image/2019/5/24/38a8f502-2_05292079.jpg","price":140},
+        {"name":"Tarator","desc":"","image":"https://i.tmgrup.com.tr/sfr/2025/09/22/havuc-tarator-1758544124907.jpg","price":140},
+        {"name":"Katı Cacık","desc":"","image":"https://i.ytimg.com/vi/WQbT-E3boHA/sddefault.jpg","price":140},
+        {"name":"Barbunya","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/barbunya_pilaki-d945335b-cdee-4adb-bacd-0cd5cb11e5c7.jpg","price":140},
+        {"name":"Rus Salatası","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/rus-salatasi-8024cb37-9299-4027-84e0-c216785ee68a.jpg","price":140},
+        {"name":"Acılı Atom","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6vr4GGd65vlzPq4GcpYSZlbavn6422uSbBA&s","price":200},
+        
+        {"name":"Zeytin Salatası","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/yesgil-zeytin-salatas.webp","price":140},
+        {"name":"Kekik Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPT2MtFR8FTzXTlkNGvQ7SorewR1gOwmio7g&s","price":140},
+        {"name":"Ali Nazik","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxkzJAe8RIxwOtDpkFJ5IzQ-EpMT3Ubancuw&s","price":250},
+        {"name":"Çiğ Köfte","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMsk1pEvYQMcrpyPytsIiTbX86TA4iIwFiPz8SQ9sd6On5cbSG5_WSts7oPvxbkO2Cao&usqp=CAU","price":280},
+        {"name":"Küçük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":210},
+        {"name":"Büyük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":300},
+        {"name":"Mevsim Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8HwkjE03Y1AEPAjHWOtZGWoAPrD1XRr6ag&s","price":170},
+        {"name":"Çoban Salata","desc":"","image":"https://ia.tmgrup.com.tr/e5a31c/1200/675/0/976/1024/1551?u=https://i.tmgrup.com.tr/sfr/2025/06/03/coban-salata-1748934365715.jpg","price":170},
+        {"name":"Roka Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJ4dO2sG27EBxDI080skkip-yrrzOYiVXSA&s","price":170},
+        {"name":"Peynir Tabağı","desc":"","image":"https://www.shutterstock.com/image-photo/peynir-beyaz-tel-260nw-2616113147.jpg","price":200},
+        {"name":"Ezine Peynir","desc":"","image":"https://oznatur.de/cdn/shop/files/Canakkale_Ezine_Kase_600g_Kuhmilch.jpg","price":260},
+        {"name":"Kızartmalık Peynir","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxM_awdP8b86sZRgUhSWxQTSGxX5jub9P5Q&s","price":260},
+        {"name":"Tereyağlı Sarımsak","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IFRuf36Rs0HCx8pEEzX6m6b-Fa7CsbkB6Q&s","price":170},
+        {"name":"Patates Cipsi","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge/unlu-patates-kizartmasi-e2cb5b2e-e67b-44ca-8492-7a4d29a88a95","price":150},
+        {"name":"Meyve Tabağı","desc":"","image":"https://kuzeycevreyolupacahan.com.tr/wp-content/uploads/2025/02/1890da71125fc81764f4b6a5a596a229.jpg","price":150},
+        {"name":"Çorba","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/16_16_11zon-487.webp","price":120},
+        {"name":"Fırın Oruk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHA8HSDPFVH2s2UVcVU6HDhwp1Ae9Oh1i4qRWsNF5UIaVmy5kCrEngpB29yeP-Jzn4Ao&usqp=CAU","price":500},
+        {"name":"Şam Oruğu","desc":"","image":"https://www.hattena.com.tr/uploads/m_Yemekler/detay/hattena-oruk-860.png","price":120},
+        {"name":"Közleme","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18_1OhQwHjCJGteJGL-zBMXLBeDEBkQS5uQ&s","price":170},
+        
+        {"name":"Cevizli Biber Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIS9CIqEC4vb5ds7ZEBZrTRpiVft2FnAViIw&s","price":200}
+      ]
+    },
+    {
+      "name": "İçecekler",
+      "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",
+      "products": [
+        {"name": "Kapalı Ayran", "desc": "", "image": "https://static.ticimax.cloud/37490/uploads/urunresimleri/buyuk/bardak-ayran-manda-sutunden-300-ml-sad-4766-b.jpg", "price": 40},
+        {"name": "Açık Ayran", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7g8bi2x4D3f6E0IT5XwYd89sdsUV4_rlWWw&s", "price": 45},
+        {"name": "Sürahi Ayran", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsD9v672Ni85IEplMNvtqkytoKc1hpPUeImw&s", "price": 140},
+        {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 65},
+        {"name": "Şalgam ", "desc": "33 ml", "image": "https://static.ticimax.cloud/5216/uploads/urunresimleri/buyuk/salgam-suyu---1-lt-c171.jpg", "price": 50},
+        {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "https://static.ticimax.cloud/5216/uploads/urunresimleri/buyuk/salgam-suyu---1-lt-c171.jpg", "price": 85},
+        {"name": "Küçük Su", "desc": "", "image": "https://www.konhaber.com/sahifeler/2013/01/03/havadis/detayfc2b8faa8666faa18e3565bbe6a23bb8.jpg", "price": 15},
+        {"name": "Büyük Su ", "desc": "1.5 Litre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFz_ckWkcmMfrvaUETc0qEk6Y30olNPNB9g&s", "price": 30},
+        {"name": "Sade Soda", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdc_Ggb-6BJygRyNVwl7dToGqmhDORzwr4fA&s", "price": 25},
+        {"name": "Kola ", "desc": "1 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 85},
+        {"name": "Kola ", "desc": "1.5 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 95},
+        {"name": "Kola ", "desc": "2.5 Litre", "image": "https://images.migrosone.com/hemen/product/08011700/08011700_1-802afc-1650x1650.jpg", "price": 110},
+        
+        {"name": "Limonata", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMHuFbZQp4exuBwx35lIkozKfONCoCKkm7Q&s", "price": 90},
+        
+        {"name": "Limonata Sürahi", "desc": "", "image": "https://st2.depositphotos.com/1001069/11933/i/450/depositphotos_119338916-stock-photo-lemonade-with-lemon-mint-and.jpg", "price": 130},
+        {"name": "Portakal Suyu", "desc": "Taze", "image": "https://media.istockphoto.com/id/152971676/tr/foto%C4%9Fraf/glass-of-orange-juice-and-fresh-oranges.jpg?s=612x612&w=0&k=20&c=sGGSSC-NRxQJLBkjGsDV5hQUk2dye7z7txOjyPy0M1Y=", "price": 90},
+        {"name": "Meyve Suyu", "desc": "", "image": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/h3a/h7e/8888106582046/55778_0_521Wx521H", "price": 65},
+        {"name": "Fanta Kutu", "desc": "", "image": "https://www.fiemfidoner.com.tr/image/cache/catalog/urun_resimleri/icecekler/fanta_kutu-1233x823.jpg", "price": 65},
+        {"name": "Sprite Kutu", "desc": "", "image": "https://pizzarianpizza.com/wp-content/uploads/2024/12/sprite.png", "price": 65},
+        {"name": "CocaCola Zero", "desc": "", "image": "https://images.migrosone.com/sanalmarket/product/08010202/08010202_1-493823-1650x1650.jpg", "price": 65},
+        {"name": "Fanta ", "desc": "1 Litre", "image": "https://nasdoner.com/admin/public/img/products/fanta-1-lt.webp?ver=1.2.0", "price": 85},
+        {"name": "Sprite ", "desc": "1 Litre", "image": "https://img-bizimtoptan.mncdn.com/Content/Images/Thumbs/3286962.jpeg", "price": 85},
+        {"name": "Çörçıl", "desc": "", "image": "https://i.nefisyemektarifleri.com/2022/09/20/churchill-corcil-nedir-nasil-yapilir-7-onemli-faydasi.jpg", "price": 80}
+      ]
+    },
+    {
+      "name": "İçkiler",
+      "image": "https://cdn.pixabay.com/photo/2019/11/13/10/40/drinks-4623239_1280.jpg",
+      "subcategories": [
+        {
+          "name": "Rakılar",
+          "image": "https://images.unsplash.com/photo-1468015223693-411e1f47d273?auto=format&fit=cover&w=200&q=80",
+          "products": [
+             {"name": "Double Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUbDeC6r_2gYAsEP7hO2RwAuX36Cko8oygA&s", "price": 250},
+            {"name": "Tek Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUbDeC6r_2gYAsEP7hO2RwAuX36Cko8oygA&s", "price": 180},
+            {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
+            
+            {"name": "35 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
+            {"name": "50 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1309},
+            {"name": "70 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1645},
+            {"name": "100 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 2190},
+            {"name": "35 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 1190},
+            {"name": "70 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2100},
+            {"name": "100 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2650},
+            {"name": "70 cl Yeni Ala Rakı", "desc": "", "image": "https://i.pinimg.com/736x/44/4e/eb/444eeb2a408269a3fd6821da6db53d82.jpg", "price": 2100},
+            {"name": "20 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 950},
+            {"name": "35 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1115},
+            {"name": "50 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1523},
+            {"name": "70 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1925},
+            {"name": "100 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 2695},
+            {"name": "100 cl İzmir Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7FTK0VTq8s4zWPKoB5__e6a4WJT7YrdOMnA&s", "price": 1785},
+            {"name": "20 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 730},
+            {"name": "35 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 945},
+            {"name": "50 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 1330},
+            {"name": "70 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 1715},
+            {"name": "100 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 2190},
+            {"name": "20 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 700},
+            {"name": "35 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 970},
+            {"name": "50 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 1330},
+            {"name": "70 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 1680},
+            {"name": "100 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 2180},
+            {"name": "20 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 800},
+            {"name": "35 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1115},
+            {"name": "50 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1530},
+            {"name": "70 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1925},
+            {"name": "100 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 2415},
+            {"name": "100 cl Saki Delux Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUSI5zWHX8OyDAUVvm4GxHM87xgYB3jXKyCbQ_z_K-VPTr8_KTFSF1UlEVT_n54bahbNc&usqp=CAU", "price": 2240}
+           
+          ]
+        },
+        {
+          "name": "Biralar",
+          "image": "https://images.unsplash.com/photo-1468015223693-411e1f47d273?auto=format&fit=cover&w=200&q=80",
+          "products": [
+            {"name": "Bira Tuborg Gold", "desc": "", "image": "https://tuzubiberibostanli.tubatux.com/wp-content/uploads/2023/12/IMG_6243-e1703952668158.webp", "price": 150},
+            {"name": "Bira Efes", "desc": "", "image": "https://qr.tuwanamenu.com/resimler/datab/efes_malt.jpg", "price": 150},
+            {"name": "Bira Kırmızı Tuborg", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzEINiVgiJZQXG04UEP5rrQVB0SQxPDubZu89H8NzSgm21L8cUCdl-9iJGyx1rNmcKgn4&usqp=CAU", "price": 170},
+            {"name": "Bira Miller", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/018d07bf-388c-4976-8229-fff04ef9d9afa1711ea0-d526-460b-ba0b-19b57e9e2ff2.jpg", "price": 160},
+            {"name": "Bira Corona", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/b2b8eb1b-0afc-42ec-9802-7de811eba82f3d6e3b70-468c-444b-bffa-8ba807b05941.jpg", "price": 180},
+            {"name": "Bomonti Bira", "desc": "", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bomonti_Bira_Red_Ale.jpg/800px-Bomonti_Bira_Red_Ale.jpg", "price": 180},
+            {"name": "Carlsberg Bira", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/07/images.jpg", "price": 150}
+          ]
+        },
+        {
+          "name": "Viskiler & Vodkalar",
+          "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=cover&w=400&q=80",
+          "products": [
+            {"name": "Double Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 350},
+            {"name": "Tek Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 270},
+            {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
+            {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
+            {"name": "35 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 960},
+            {"name": "50 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 1330},
+            {"name": "70 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 1750},
+            {"name": "100 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 2380},
+            {"name": "35 cl Chivas Regal", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzjqJytzAcFgMqtD1ZDD7ng37kxH85fm0rg&s", "price": 1330},
+            {"name": "50 cl Chivas Regal", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzjqJytzAcFgMqtD1ZDD7ng37kxH85fm0rg&s", "price": 1890},
+            {"name": "70 cl Chivas Regal", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzjqJytzAcFgMqtD1ZDD7ng37kxH85fm0rg&s", "price": 2450},
+            {"name": "100 cl Chivas Regal", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIzjqJytzAcFgMqtD1ZDD7ng37kxH85fm0rg&s", "price": 3325},
+            {"name": "35 cl Jack Daniels", "desc": "", "image": "https://www.thebottleclub.com/cdn/shop/files/about-jack-daniels.jpg?v=1739299632&width=1540", "price": 1240},
+            {"name": "50 cl Jack Daniels", "desc": "", "image": "https://www.thebottleclub.com/cdn/shop/files/about-jack-daniels.jpg?v=1739299632&width=1540", "price": 1715},
+            {"name": "70 cl Jack Daniels", "desc": "", "image": "https://www.thebottleclub.com/cdn/shop/files/about-jack-daniels.jpg?v=1739299632&width=1540", "price": 2230},
+            {"name": "100 cl Jack Daniels", "desc": "", "image": "https://www.thebottleclub.com/cdn/shop/files/about-jack-daniels.jpg?v=1739299632&width=1540", "price": 3070},
+            {"name": "35 cl Black Label", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/01/Johnnie-Walker-Black-Label-768x864.jpeg", "price": 1170},
+            {"name": "50 cl Black Label", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/01/Johnnie-Walker-Black-Label-768x864.jpeg", "price": 1670},
+            {"name": "70 cl Black Label", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/01/Johnnie-Walker-Black-Label-768x864.jpeg", "price": 2145},
+            {"name": "100 cl Black Label", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/01/Johnnie-Walker-Black-Label-768x864.jpeg", "price": 3150},
+            
+            {"name": "35 cl İstanblue Vodka", "desc": "", "image": "https://limnadeshotel.com/storage/209/01HPC354BJJJ880130TMDXDTYP.jpg", "price": 680},
+            {"name": "50 cl İstanblue Vodka", "desc": "", "image": "https://limnadeshotel.com/storage/209/01HPC354BJJJ880130TMDXDTYP.jpg", "price": 910},
+            {"name": "70 cl İstanblue Vodka", "desc": "", "image": "https://limnadeshotel.com/storage/209/01HPC354BJJJ880130TMDXDTYP.jpg", "price": 1225},
+            {"name": "100 cl İstanblue Vodka", "desc": "", "image": "https://limnadeshotel.com/storage/209/01HPC354BJJJ880130TMDXDTYP.jpg", "price": 1700},
+            {"name": "35 cl Absolut Vodka", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI83ECbd40XLX_blipZ0OTD3cqR73PA5nI4w&s", "price": 945},
+            {"name": "50 cl Absolut Vodka", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI83ECbd40XLX_blipZ0OTD3cqR73PA5nI4w&s", "price": 1295},
+            {"name": "70 cl Absolut Vodka", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI83ECbd40XLX_blipZ0OTD3cqR73PA5nI4w&s", "price": 1750},
+            {"name": "100 cl Absolut Vodka", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI83ECbd40XLX_blipZ0OTD3cqR73PA5nI4w&s", "price": 2380},
+            
+            {"name": "35 cl Ballantines Vodka", "desc": "", "image": "https://habergazetesicomtr.teimg.com/crop/1280x720/habergazetesi-com-tr/uploads/2025/10/ballantines.jpg", "price": 960},
+            {"name": "50 cl Ballantines Vodka", "desc": "", "image": "https://habergazetesicomtr.teimg.com/crop/1280x720/habergazetesi-com-tr/uploads/2025/10/ballantines.jpg", "price": 1190},
+            {"name": "70 cl Ballantines Vodka", "desc": "", "image": "https://habergazetesicomtr.teimg.com/crop/1280x720/habergazetesi-com-tr/uploads/2025/10/ballantines.jpg", "price": 1750},
+            {"name": "100 cl Ballantines Vodka", "desc": "", "image": "https://habergazetesicomtr.teimg.com/crop/1280x720/habergazetesi-com-tr/uploads/2025/10/ballantines.jpg", "price": 2380},
+            {"name": "35 Smirnoff Vodka", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/04/Smirnoff.webp", "price": 830},
+            {"name": "50 cl Smirnoff Vodka", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/04/Smirnoff.webp", "price": 1140},
+            {"name": "70 cl Smirnoff Vodka", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/04/Smirnoff.webp", "price": 1540},
+            {"name": "100 cl Smirnoff Vodka", "desc": "", "image": "https://ickidunyasi.net/wp-content/uploads/2025/04/Smirnoff.webp", "price": 2100}
+            
+
+            
+          ]
+        }
+      ]
+    }
+  ]
+}

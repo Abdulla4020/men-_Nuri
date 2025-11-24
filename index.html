@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title> Nuri Restoran Menü</title>
+  <style>
+    html,body { margin:0; padding:0; font-family: 'Segoe UI', Arial,sans-serif; background: #fafafa;}
+    .menubar {
+      background: #111; color: #fff; font-weight: bold; font-size: 26px;
+      text-align: center; letter-spacing: 2px; padding: 16px 0; margin-bottom: 0;
+    }
+    .main { max-width:900px; margin:auto;}
+    .hosgeldin { text-align:center; margin: 23px 0 22px 0; font-size: 28px; color:#242525; font-weight:700; letter-spacing:1px;}
+    .category-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin:0 12px 22px 12px;
+    }
+    .cat-card {
+      background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 5px 18px #0002;
+      aspect-ratio: 1.4/1; position:relative; cursor:pointer; transition: box-shadow .16s;
+      display: flex; align-items: stretch;
+    }
+    .cat-card:hover { box-shadow:0 9px 16px #00897bb8;}
+    .cat-card img {
+      width:100%; height:100%; object-fit:cover; display:block;
+      filter: brightness(0.76);
+      transition: filter .25s;
+    }
+    .cat-card:hover img { filter: brightness(0.9);}
+    .cat-title {
+      position:absolute; left:0; right:0; top:0; bottom:0; display:flex; align-items:center; justify-content:center;
+      font-size:2rem; color:#fff; font-weight: bold; text-align: center; letter-spacing:1px;
+      text-shadow: 1px 2px 10px #000c;
+      pointer-events: none;
+      padding: 0 10px;
+      text-transform: uppercase;
+    }
+    .urun-listesi-wrap { padding: 0 0 16px 0; }
+    .urunbar {
+      background: #fff; padding: 10px 0; margin-bottom: 5px; box-shadow: 0 2px 8px #1111;
+      display: flex; align-items: center; position: sticky; top:0; z-index: 50;
+    }
+    .back-btn {
+      background:none; border:none; font-size:22px; font-weight:bold; margin-right:7px; cursor:pointer; color:#222; padding-left:13px; }
+    .cat-head { font-size: 1.25em; font-weight: bold; letter-spacing: 0.7px;}
+    .urunler { margin-top:6px;}
+    .urun-row {
+      background: #fff; border-radius:12px; margin: 12px 11px; box-shadow: 0 2px 13px #0001;
+      display: flex; flex-direction: row; align-items: center; padding: 10px 7px 10px 0; gap:0;
+    }
+    .urun-gorsel {
+      width:70px; height:70px; border-radius: 9px; margin:0 15px 0 18px; object-fit: cover; background:#eee;
+      border: 1px solid #e0e0e0;
+    }
+    .urun-detay { flex:1; display:flex; flex-direction:column; align-items: flex-start; justify-content: center;}
+    .urun-isim {
+      font-size: 1.16em; font-weight: bold; color:#141824; letter-spacing: .5px;}
+    .urun-aciklama { font-size:0.99em; color:#6a7682; margin: 4px 0 0 0;}
+    .urun-fiyat { font-size:1.05em; font-weight:bold; color:#080808; margin-left:12px; white-space:nowrap;}
+    
+    /* Alt kategori butonları için stil */
+    .subcategory-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 12px;
+    }
+    .subcat-btn {
+      background: linear-gradient(135deg, #121213 0%, #0d0217 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 20px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .subcat-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+    .subcat-btn:active {
+      transform: translateY(-1px);
+    }
+    
+    @media(max-width:650px){
+      .category-grid {grid-template-columns:1fr; gap:15px; margin:0 5px 15px 5px;}
+      .hosgeldin { font-size:1.5em;}
+      .menubar { font-size:23px;}
+      .urun-row { margin: 8px 2vw;}
+      .urun-gorsel { width:20vw; max-width:75px; height:20vw; max-height:75px; margin:0 6px 0 3vw;}
+      .subcategory-buttons {
+        grid-template-columns: 1fr;
+        margin: 15px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menubar">Nuri Restaurant Menü</div>
+  <div class="main">
+    <div id="menu-ana">
+      <div class="hosgeldin">Hoşgeldiniz</div>
+      <div class="category-grid" id="category-grid"></div>
+    </div>
+    <div style="display:none" id="menu-cat">
+      <div class="urun-listesi-wrap">
+        <div class="urunbar">
+          <button class="back-btn" onclick="geriDon()">&#8592;</button>
+          <span class="cat-head" id="cat-head"></span>
+        </div>
+        <div id="subcategory-container"></div>
+        <div class="urunler" id="urun-listesi"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let menudata, activeCat = null;
+    
+    // Asenkron veri çekme fonksiyonu
+    async function menuyuGetir() {
+        const res = await fetch("menu.json"); 
+        menudata = await res.json();
+        kategorileriGoster(menudata.categories);
+    }
+    
+    // Kategori kartlarını oluşturur ve tıklama olayına index numarasını gönderir.
+    function kategorileriGoster(kategoriler) {
+        let html = "";
+        kategoriler.forEach((kat, i) => {
+            html += `<div class="cat-card" onclick="kategoriTikla(${i})">
+                <img src="${kat.image}" alt="${kat.name}"><div class="cat-title">${kat.name}</div>
+            </div>`;
+        });
+        document.getElementById("category-grid").innerHTML = html;
+    }
+
+    // Index numarasına göre kategori verisini bulur
+    function kategoriTikla(index) {
+        activeCat = menudata.categories[index]; 
+        
+        document.getElementById("menu-ana").style.display = "none";
+        document.getElementById("menu-cat").style.display = "";
+        document.getElementById("cat-head").innerText = activeCat.name;
+        
+        // Alt kategoriler varsa butonları göster VE ilk alt kategoriyi otomatik aç
+        if (activeCat.subcategories && activeCat.subcategories.length > 0) {
+            altKategorileriGoster(activeCat.subcategories);
+            // İlk alt kategoriyi otomatik olarak göster (index 0 = Rakılar)
+            altKategoriTikla(0);
+        } else if (activeCat.products) {
+            // Alt kategori yoksa direkt ürünleri göster
+            document.getElementById("subcategory-container").innerHTML = "";
+            urunleriGoster(activeCat.products);
+        }
+        
+        window.scrollTo(0, 0);
+    }
+    
+    // Alt kategori butonlarını göster
+    function altKategorileriGoster(subcategories) {
+        let html = '<div class="subcategory-buttons">';
+        subcategories.forEach((subcat, i) => {
+            html += `<button class="subcat-btn" onclick="altKategoriTikla(${i})">${subcat.name}</button>`;
+        });
+        html += '</div>';
+        document.getElementById("subcategory-container").innerHTML = html;
+    }
+    
+    // Alt kategori tıklandığında ürünleri göster
+    function altKategoriTikla(subIndex) {
+        const subcat = activeCat.subcategories[subIndex];
+        if (subcat.products) {
+            urunleriGoster(subcat.products);
+            // Başlığı güncelle
+            document.getElementById("cat-head").innerText = `${activeCat.name} - ${subcat.name}`;
+        }
+    }
+    
+    // Ürün listesini HTML'e yazar
+    function urunleriGoster(urunler) {
+        let html = "";
+        urunler.forEach(urun => {
+            const fiyatHTML = urun.price 
+                ? `<div class="urun-fiyat">${urun.price.toLocaleString("tr-TR") + " ₺"}</div>` 
+                : "";
+            
+            html += `<div class="urun-row">
+                <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}">
+                <div class="urun-detay">
+                    <div class="urun-isim">${urun.name}</div>
+                    <div class="urun-aciklama">${urun.desc || ""}</div>
+                </div>
+                ${fiyatHTML}
+            </div>`;
+        });
+        document.getElementById("urun-listesi").innerHTML = html;
+    }
+    
+    // Geri dönme fonksiyonu
+    function geriDon() {
+        document.getElementById("menu-cat").style.display = "none";
+        document.getElementById("menu-ana").style.display = "";
+        document.getElementById("subcategory-container").innerHTML = "";
+        document.getElementById("urun-listesi").innerHTML = "";
+        activeCat = null;
+        window.scrollTo(0,0);
+    }
+    
+    // Global erişim için tanımlama
+    window.kategoriTikla = kategoriTikla;
+    window.altKategoriTikla = altKategoriTikla;
+    window.geriDon = geriDon;
+    
+    // Menüyü başlat
+    menuyuGetir();
+</script>
+</body>
+</html>
