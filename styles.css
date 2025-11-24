@@ -116,49 +116,47 @@ header {
 .hidden {
     display: none;
 }
+
 .menubar {
- background: #111211; color: #fff; font-weight: bold;
-      /* YENİ FLEXBOX AYARLARI */
-display: flex;
-justify-content: space-between; /* Öğeler arasına boşluk koyar */
-align-items: center; /* Dikeyde ortalar */
-padding: 16px 12px; /* Yanlardan boşluk ekler */
+    background: #111211; 
+    color: #fff; 
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
 }
+
 .menubar-title {
-font-size: 26px; /* Başlık boyutu */
-font-weight: bold;
-letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
+
 .phone-link {
- font-size: 0.85rem; /* Başlıktan daha küçük */
- color: #00897b; /* Dikkat çekici renk */
- text-decoration: none;
- padding: 5px 10px;
-background: rgba(255, 255, 255, 0.1);
-border-radius: 6px;
-white-space: nowrap;
+    font-size: 0.85rem;
+    color: #00897b;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    white-space: nowrap;
 }
+
 .phone-link:hover {
-background: rgba(255, 255, 255, 0.2);
- }
- .empty-spacer {
- width: 100px; /* phone-link'in yaklaşık genişliği kadar boşluk */
- min-width: 120px;
- }
-@media(max-width:650px){
- /* ... mevcut mobil kodlarınız ... */
-      /* YENİ EKLENEN SATIRLAR */
-      .menubar { padding: 12px 8px; }
-      .menubar-title { font-size: 1.25rem; }
-      .phone-link { font-size: 0.75rem; }
- }
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.empty-spacer {
+    width: 100px;
+    min-width: 120px;
+}
+
 /* Responsive */
 
 /* 1. Geniş Kapsayıcı Ayarı (700px ve altı) */
 @media (max-width: 700px) {
-    /* Yatay telefon ve küçük tabletler için 700px altı */
     .grid, .product-list {
-        /* Yatayda boşluk kalmaması için kenar boşluğunu (margin) kaldırıp %97 genişlik kullan */
         max-width: 97vw; 
         margin-left: 1.5vw;
         margin-right: 1.5vw;
@@ -166,39 +164,39 @@ background: rgba(255, 255, 255, 0.2);
 }
 
 /* 2. YATAY TELEFON/KÜÇÜK TABLET Görünümü (481px - 700px) */
-/* Amacımız burada 3 sütunu kesinleştirmek */
 @media (min-width: 481px) and (max-width: 700px) {
     .grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 eşit sütun */
-        gap: 0.5rem; /* Boşluğu minimuma indiriyoruz */
-        max-width: 100%; /* Kapsayıcının %100'ünü kullan */
-        margin: auto; /* Merkezleme */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        max-width: 100%;
+        margin: auto;
     }
     .category-title {
-        font-size: 0.95rem; /* Başlık boyutunu biraz daha küçültüyoruz */
+        font-size: 0.95rem;
         padding: 0.4rem;
     }
     .category-card {
-        height: 100px; /* Kart yüksekliğini biraz düşürüp daha az yer kaplamasını sağla */
+        height: 100px;
     }
 }
 
 /* 3. Dikey Telefon Görünümü (480px ve altı) */
 @media (max-width: 480px) {
     .grid {
-        grid-template-columns: 1fr; /* Tek sütun kalsın */
-        margin: 0 10px; /* Kenarlardan biraz boşluk bırak */
+        grid-template-columns: 1fr;
+        margin: 0 10px;
     }
 }
-/* Alt kategori butonları için mobil düzenleme */
+
+/* Mobil ayarlar */
 @media(max-width:650px){
-  .subcategory-buttons {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
-    gap: 10px !important;
-  }
-  .subcat-btn {
-    padding: 15px 10px !important;
-    font-size: 0.9em !important;
-    letter-spacing: 0.5px !important;
-  }
+    .menubar { 
+        padding: 12px 8px; 
+    }
+    .menubar-title { 
+        font-size: 1.25rem; 
+    }
+    .phone-link { 
+        font-size: 0.75rem; 
+    }
 }

@@ -61,7 +61,7 @@
     /* Alt kategori butonları için stil */
     .subcategory-buttons {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 15px;
       margin: 20px 12px;
     }
@@ -94,8 +94,13 @@
       .urun-row { margin: 8px 2vw;}
       .urun-gorsel { width:20vw; max-width:75px; height:20vw; max-height:75px; margin:0 6px 0 3vw;}
       .subcategory-buttons {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 8px;
         margin: 15px 8px;
+      }
+      .subcat-btn {
+        padding: 12px 8px;
+        font-size: 0.85em;
       }
     }
   </style>
@@ -105,9 +110,6 @@
   <div class="main">
     <div id="menu-ana">
       <div class="hosgeldin">Hoşgeldiniz</div>
-      
-    <div class="category-grid" id="category-grid"></div>
-</div>
       <div class="category-grid" id="category-grid"></div>
     </div>
     <div style="display:none" id="menu-cat">
@@ -221,34 +223,6 @@
     
     // Menüyü başlat
     menuyuGetir();
-    function filtrele() {
-    // Sadece ürünler menüsü açıkken arama yap
-    if (document.getElementById("menu-cat").style.display === "none") return;
-    
-    const input = document.getElementById("searchInput");
-    const filter = input.value.toUpperCase();
-    const urunler = document.getElementById("urun-listesi").getElementsByClassName("urun-row");
-    
-    // Her ürün satırı üzerinde döngü
-    for (let i = 0; i < urunler.length; i++) {
-        const isim = urunler[i].getElementsByClassName("urun-isim")[0];
-        const aciklama = urunler[i].getElementsByClassName("urun-aciklama")[0];
-        
-        // Ürün adı veya açıklaması arama kelimesini içeriyorsa göster
-        if (isim || aciklama) {
-            const isimText = isim.textContent || isim.innerText;
-            const aciklamaText = aciklama.textContent || aciklama.innerText;
-
-            if (isimText.toUpperCase().indexOf(filter) > -1 || aciklamaText.toUpperCase().indexOf(filter) > -1) {
-                urunler[i].style.display = ""; // Göster
-            } else {
-                urunler[i].style.display = "none"; // Gizle
-            }
-        }
-    }
-}
-
-
-</script>
+  </script>
 </body>
 </html>
