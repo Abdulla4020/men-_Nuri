@@ -155,3 +155,31 @@ header {
         margin: 0 10px; /* Kenarlardan biraz boşluk bırak */
     }
 }
+.search-wrap {
+    text-align: center;
+    margin: 0 15px 20px 15px; /* Altına boşluk bırakır */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: border-color 0.3s;
+    box-sizing: border-box; /* Padding'in genişliği etkilememesi için */
+}
+#searchInput:focus {
+    border-color: #00796b; /* Odaklandığında renk değiştir */
+    outline: none;
+}
+
+/* Mobil görünümde arama çubuğunu biraz daha daraltalım */
+@media (max-width: 700px) {
+    .search-wrap {
+        margin: 0 5vw 20px 5vw; /* Mobil kenarlardan boşluk */
+    }
+}
