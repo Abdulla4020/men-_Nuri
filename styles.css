@@ -119,12 +119,28 @@ header {
 
 /* Responsive */
 @media (max-width: 700px) {
+    /* Yatay telefon ve küçük tabletler için 700px altı */
     .grid, .product-list {
-        max-width: 97vw;
+        /* Ekranın %97'sini kullan, cihaz kenarlarına daha yakın olsun */
+        max-width: 97vw; 
     }
 }
-@media (max-width: 480px) {
+
+/* YENİ EKLEME: Yatay Telefon (Landscape) Görünümü (481px - 700px) */
+/* Bu aralıkta 3 sütun göster */
+@media (min-width: 481px) and (max-width: 700px) {
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr); /* 3 eşit sütun */
+        gap: 0.8rem; /* Biraz boşluğu azalt */
+    }
+    .category-title {
+        font-size: 1rem; /* Başlık boyutunu biraz küçült */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Dikey Telefon (Portrait) Görünümü (480px ve altı) */
+    .grid {
+        grid-template-columns: 1fr; /* Tek sütun kalsın */
     }
 }
