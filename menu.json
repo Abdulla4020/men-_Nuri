@@ -63,36 +63,77 @@
       ]
     },
     {
-      "name": "Ara Sıcaklar",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxL8VHG0KGH5qYYhO7vQkZvPJE9R4I8uZj8w&s",
-      "products": [
-        {
-          "name": "Sigara Böreği",
-          "desc": "6 adet",
-          "image": "https://i.lezzet.com.tr/images-xxlarge-recipe/sigara-boregi-nasil-yapilir-221135ce-f383-474c-a4c8-ad88a05c9551.jpg",
-          "price": 180
-        },
-        {
-          "name": "Patates Kızartması",
-          "desc": "",
-          "image": "https://i.lezzet.com.tr/images-xxlarge/unlu-patates-kizartmasi-e2cb5b2e-e67b-44ca-8492-7a4d29a88a95",
-          "price": 120
-        },
-        {
-          "name": "Soğan Halkası",
-          "desc": "",
-          "image": "https://i.lezzet.com.tr/images-xxlarge-recipe/sogan-halkasi-kizartmasi-6c0c6c16-2f91-4f4d-8702-fe91b7ae0d33.jpg",
-          "price": 140
-        }
-      ]
+  "name": "Ara Sıcaklar",
+  "image": "https://img.freepik.com/free-photo/top-view-table-full-food_23-2149209253.jpg?semt=ais_hybrid&w=740&q=80",
+  "products": [
+    {
+      "name": "Ali Nazik",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxkzJAe8RIxwOtDpkFJ5IzQ-EpMT3Ubancuw&s",
+      "price": 250
     },
-    
+    {
+      "name": "Tereyağlı Humus",
+      "desc": "",
+      "image": "https://yedikardesler.com/wp-content/uploads/2021/12/236493848.jpeg",
+      "price": 220
+    },
+    {
+      "name": "Çiğ Köfte",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMsk1pEvYQMcrpyPytsIiTbX86TA4iIwFiPz8SQ9sd6On5cbSG5_WSts7oPvxbkO2Cao&usqp=CAU",
+      "price": 320
+    },
+    {
+      "name": "Patates Cipsi",
+      "desc": "",
+      "image": "https://i.lezzet.com.tr/images-xxlarge/unlu-patates-kizartmasi-e2cb5b2e-e67b-44ca-8492-7a4d29a88a95",
+      "price": 150
+    },
+    {
+      "name": "Çorba",
+      "desc": "Mercimek",
+      "image": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/16_16_11zon-487.webp",
+      "price": 120
+    },
+    {
+      "name": "Şam Oruğu",
+      "desc": "",
+      "image": "https://www.hattena.com.tr/uploads/m_Yemekler/detay/hattena-oruk-860.png",
+      "price": 120
+    },
+    {
+      "name": "Fırın Oruk",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHA8HSDPFVH2s2UVcVU6HDhwp1Ae9Oh1i4qRWsNF5UIaVmy5kCrEngpB29yeP-Jzn4Ao&usqp=CAU",
+      "price": 500
+    },
+    {
+      "name": "Közleme",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18_1OhQwHjCJGteJGL-zBMXLBeDEBkQS5uQ&s",
+      "price": 170
+    },
+    {
+      "name": "Tereyağlı Sarımsak",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IFRuf36Rs0HCx8pEEzX6m6b-Fa7CsbkB6Q&s",
+      "price": 170
+    },
+    {
+      "name": "Kızarmış Peynir",
+      "desc": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxM_awdP8b86sZRgUhSWxQTSGxX5jub9P5Q&s",
+      "price": 260
+    }
+  ]
+  },
     {
       "name": "Soğuk Mezeler",
       "image": "https://parkbalik.com/wp-content/uploads/2025/08/soguk-meze-cesitleri-en-lezzetli-soguk-mezeler-1.webp",
       "products": [
         {"name":"Zeytinyağlı Humus","desc":"","image":"https://i0.wp.com/sevgilimutfak.com/wp-content/uploads/2016/10/humus.jpg","price":160},
-        {"name":"Tereyağlı Humus","desc":"","image":"https://yedikardesler.com/wp-content/uploads/2021/12/236493848.jpeg","price":220},
+      
         {"name":"Süzme Yoğurt","desc":"","image":"https://i.lezzet.com.tr/images-800x600/yogurtlu-meze-tarifleri--bs64-5e5234cd-e957-4a4e-91b7-e845b4c97200","price":140},
         {"name":"Babagannüç","desc":"","image":"https://i.ytimg.com/vi/fyngdPJx9XU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCawZGhf55ZEbBk02UC8aTGqHWnIg","price":140},
         {"name":"Patlıcan Yoğurtlama","desc":"","image":"https://lh4.googleusercontent.com/proxy/8SNmQkZ6B6-44ADPNAP38QxzTQGz33P0Gpa6vI6cZvBShYZYasXy2vAvnNB5S6GyTcleW4CuVI1dlbh7Iy48AcX6lPNcOJx67KFdKVso1Rb-x8gkmY5SDEEgYDfzKhd1hGUthQ","price":140},
@@ -111,8 +152,8 @@
         
         {"name":"Zeytin Salatası","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/yesgil-zeytin-salatas.webp","price":140},
         {"name":"Kekik Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPT2MtFR8FTzXTlkNGvQ7SorewR1gOwmio7g&s","price":140},
-        {"name":"Ali Nazik","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxkzJAe8RIxwOtDpkFJ5IzQ-EpMT3Ubancuw&s","price":250},
-        {"name":"Çiğ Köfte","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMsk1pEvYQMcrpyPytsIiTbX86TA4iIwFiPz8SQ9sd6On5cbSG5_WSts7oPvxbkO2Cao&usqp=CAU","price":320},
+        
+        
         {"name":"Küçük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":210},
         {"name":"Büyük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":300},
         {"name":"Mevsim Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8HwkjE03Y1AEPAjHWOtZGWoAPrD1XRr6ag&s","price":170},
@@ -120,14 +161,9 @@
         {"name":"Roka Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJ4dO2sG27EBxDI080skkip-yrrzOYiVXSA&s","price":170},
         {"name":"Peynir Tabağı","desc":"","image":"https://www.shutterstock.com/image-photo/peynir-beyaz-tel-260nw-2616113147.jpg","price":200},
         {"name":"Ezine Peynir","desc":"","image":"https://oznatur.de/cdn/shop/files/Canakkale_Ezine_Kase_600g_Kuhmilch.jpg","price":260},
-        {"name":"Kızartmalık Peynir","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxM_awdP8b86sZRgUhSWxQTSGxX5jub9P5Q&s","price":260},
-        {"name":"Tereyağlı Sarımsak","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IFRuf36Rs0HCx8pEEzX6m6b-Fa7CsbkB6Q&s","price":170},
-        {"name":"Patates Cipsi","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge/unlu-patates-kizartmasi-e2cb5b2e-e67b-44ca-8492-7a4d29a88a95","price":150},
+        
+        
         {"name":"Meyve Tabağı","desc":"","image":"https://kuzeycevreyolupacahan.com.tr/wp-content/uploads/2025/02/1890da71125fc81764f4b6a5a596a229.jpg","price":150},
-        {"name":"Çorba","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/16_16_11zon-487.webp","price":120},
-        {"name":"Fırın Oruk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHA8HSDPFVH2s2UVcVU6HDhwp1Ae9Oh1i4qRWsNF5UIaVmy5kCrEngpB29yeP-Jzn4Ao&usqp=CAU","price":500},
-        {"name":"Şam Oruğu","desc":"","image":"https://www.hattena.com.tr/uploads/m_Yemekler/detay/hattena-oruk-860.png","price":120},
-        {"name":"Közleme","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18_1OhQwHjCJGteJGL-zBMXLBeDEBkQS5uQ&s","price":170},
         
         {"name":"Cevizli Biber Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIS9CIqEC4vb5ds7ZEBZrTRpiVft2FnAViIw&s","price":200}
       ]
