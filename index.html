@@ -221,7 +221,34 @@
     
     // Menüyü başlat
     menuyuGetir();
+    function filtrele() {
+    // Sadece ürünler menüsü açıkken arama yap
+    if (document.getElementById("menu-cat").style.display === "none") return;
     
+    const input = document.getElementById("searchInput");
+    const filter = input.value.toUpperCase();
+    const urunler = document.getElementById("urun-listesi").getElementsByClassName("urun-row");
+    
+    // Her ürün satırı üzerinde döngü
+    for (let i = 0; i < urunler.length; i++) {
+        const isim = urunler[i].getElementsByClassName("urun-isim")[0];
+        const aciklama = urunler[i].getElementsByClassName("urun-aciklama")[0];
+        
+        // Ürün adı veya açıklaması arama kelimesini içeriyorsa göster
+        if (isim || aciklama) {
+            const isimText = isim.textContent || isim.innerText;
+            const aciklamaText = aciklama.textContent || aciklama.innerText;
+
+            if (isimText.toUpperCase().indexOf(filter) > -1 || aciklamaText.toUpperCase().indexOf(filter) > -1) {
+                urunler[i].style.display = ""; // Göster
+            } else {
+                urunler[i].style.display = "none"; // Gizle
+            }
+        }
+    }
+}
+
+
 </script>
 </body>
 </html>

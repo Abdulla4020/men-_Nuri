@@ -63,6 +63,31 @@
       ]
     },
     {
+      "name": "Ara Sıcaklar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxL8VHG0KGH5qYYhO7vQkZvPJE9R4I8uZj8w&s",
+      "products": [
+        {
+          "name": "Sigara Böreği",
+          "desc": "6 adet",
+          "image": "https://i.lezzet.com.tr/images-xxlarge-recipe/sigara-boregi-nasil-yapilir-221135ce-f383-474c-a4c8-ad88a05c9551.jpg",
+          "price": 180
+        },
+        {
+          "name": "Patates Kızartması",
+          "desc": "",
+          "image": "https://i.lezzet.com.tr/images-xxlarge/unlu-patates-kizartmasi-e2cb5b2e-e67b-44ca-8492-7a4d29a88a95",
+          "price": 120
+        },
+        {
+          "name": "Soğan Halkası",
+          "desc": "",
+          "image": "https://i.lezzet.com.tr/images-xxlarge-recipe/sogan-halkasi-kizartmasi-6c0c6c16-2f91-4f4d-8702-fe91b7ae0d33.jpg",
+          "price": 140
+        }
+      ]
+    },
+    
+    {
       "name": "Soğuk Mezeler",
       "image": "https://parkbalik.com/wp-content/uploads/2025/08/soguk-meze-cesitleri-en-lezzetli-soguk-mezeler-1.webp",
       "products": [
@@ -107,6 +132,7 @@
         {"name":"Cevizli Biber Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIS9CIqEC4vb5ds7ZEBZrTRpiVft2FnAViIw&s","price":200}
       ]
     },
+    
     {
       "name": "İçecekler",
       "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",

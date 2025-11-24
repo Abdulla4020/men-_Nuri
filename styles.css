@@ -116,7 +116,42 @@ header {
 .hidden {
     display: none;
 }
-
+.menubar {
+ background: #111211; color: #fff; font-weight: bold;
+      /* YENİ FLEXBOX AYARLARI */
+display: flex;
+justify-content: space-between; /* Öğeler arasına boşluk koyar */
+align-items: center; /* Dikeyde ortalar */
+padding: 16px 12px; /* Yanlardan boşluk ekler */
+}
+.menubar-title {
+font-size: 26px; /* Başlık boyutu */
+font-weight: bold;
+letter-spacing: 2px;
+}
+.phone-link {
+ font-size: 0.85rem; /* Başlıktan daha küçük */
+ color: #00897b; /* Dikkat çekici renk */
+ text-decoration: none;
+ padding: 5px 10px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 6px;
+white-space: nowrap;
+}
+.phone-link:hover {
+background: rgba(255, 255, 255, 0.2);
+ }
+ .empty-spacer {
+ width: 100px; /* phone-link'in yaklaşık genişliği kadar boşluk */
+ min-width: 120px;
+ }
+@media(max-width:650px){
+ /* ... mevcut mobil kodlarınız ... */
+      /* YENİ EKLENEN SATIRLAR */
+      .menubar { padding: 12px 8px; }
+      .menubar-title { font-size: 1.25rem; }
+      .phone-link { font-size: 0.75rem; }
+ }
 /* Responsive */
 
 /* 1. Geniş Kapsayıcı Ayarı (700px ve altı) */
@@ -154,4 +189,16 @@ header {
         grid-template-columns: 1fr; /* Tek sütun kalsın */
         margin: 0 10px; /* Kenarlardan biraz boşluk bırak */
     }
+}
+/* Alt kategori butonları için mobil düzenleme */
+@media(max-width:650px){
+  .subcategory-buttons {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+    gap: 10px !important;
+  }
+  .subcat-btn {
+    padding: 15px 10px !important;
+    font-size: 0.9em !important;
+    letter-spacing: 0.5px !important;
+  }
 }
