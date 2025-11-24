@@ -87,7 +87,7 @@
         {"name":"Zeytin Salatası","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/yesgil-zeytin-salatas.webp","price":140},
         {"name":"Kekik Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPT2MtFR8FTzXTlkNGvQ7SorewR1gOwmio7g&s","price":140},
         {"name":"Ali Nazik","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxkzJAe8RIxwOtDpkFJ5IzQ-EpMT3Ubancuw&s","price":250},
-        {"name":"Çiğ Köfte","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMsk1pEvYQMcrpyPytsIiTbX86TA4iIwFiPz8SQ9sd6On5cbSG5_WSts7oPvxbkO2Cao&usqp=CAU","price":280},
+        {"name":"Çiğ Köfte","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMsk1pEvYQMcrpyPytsIiTbX86TA4iIwFiPz8SQ9sd6On5cbSG5_WSts7oPvxbkO2Cao&usqp=CAU","price":320},
         {"name":"Küçük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":210},
         {"name":"Büyük Order Tabağı","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf9WYoIs65_8ZsPNH4gX8SB5EIPwpg16gjA&s","price":300},
         {"name":"Mevsim Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8HwkjE03Y1AEPAjHWOtZGWoAPrD1XRr6ag&s","price":170},
