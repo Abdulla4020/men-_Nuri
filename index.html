@@ -476,6 +476,9 @@
       activeCat = menudata.categories[index]; 
       currentPriceFilter = 'all';
       
+      // History'ye state ekle
+      history.pushState({page: 'category', index: index}, '', '');
+      
       document.getElementById("menu-ana").style.display = "none";
       document.getElementById("menu-cat").style.display = "";
       document.getElementById("cat-head").innerText = activeCat.name;
@@ -646,6 +649,11 @@
     });
     
     function geriDon() {
+      // History'den geri gitmeyi engelle, sadece sayfayı güncelle
+      if (window.history.state && window.history.state.page === 'category') {
+        history.back();
+      }
+      
       document.getElementById("menu-cat").style.display = "none";
       document.getElementById("menu-ana").style.display = "";
       document.getElementById("subcategory-container").innerHTML = "";
@@ -678,6 +686,20 @@
     window.openModal = openModal;
     window.closeModal = closeModal;
     window.filterByPrice = filterByPrice;
+    
+    // Tarayıcı geri tuşu kontrolü
+    window.addEventListener('popstate', function(event) {
+      if (document.getElementById("menu-cat").style.display !== "none") {
+        // Kategori sayfasındaysa ana menüye dön
+        event.preventDefault();
+        geriDon();
+      }
+    });
+    
+    // Sayfa yüklendiğinde history state ekle
+    window.addEventListener('load', function() {
+      history.pushState({page: 'menu'}, '', '');
+    });
     
     menuyuGetir();
   </script>

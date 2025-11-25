@@ -4,7 +4,7 @@
       "name": "Sıcaklar",
       "image": "https://cevatusta.com.tr/wp-content/uploads/2020/11/Karisik-Kebap.jpg",
       "products": [
-        {"name":"Kıyma Tabak Servis","desc":"160 gr","image":"https://www.irankulturmerkezi.com/wp-content/uploads/2021/03/KUBIDE-1280x640.jpg","price":250},
+        {"name":"Kıyma Tabak Servis","desc":"160 gr","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXfvZ8bHmSubm9MpQ994PIJO0xhpD0Lfb0Q&s","price":250},
         {"name":"Kuzu Kuşbaşı Tabak servis","desc":"160 gr","image":"https://guvendefaskasap.com/wp-content/uploads/2023/06/Kuzu-Kusbasi-Sis-Izgara.jpg","price":260},
         {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"https://guvendefaskasap.com/wp-content/uploads/2023/06/Dana-Kusbasi-Sis-Izgara.jpg","price":260},
         {"name":"Ciğer Tabak Servis","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/ciger_sis_10_11zon.webp","price":250},
