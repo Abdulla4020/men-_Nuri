@@ -46,12 +46,12 @@
         {"name":"Tavuk Sote","desc":"","image":"https://mezebahce.com.tr/pseeckar/2024/11/TAVUK-SOTE1.jpg","price":300},
         {"name":"Kaşarlı Mantarlı Tavuk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk5Oxhfo1YYRY-9EV4dLhpDbtCST7D4K6SiA&s","price":300},
         {"name":"Kaşarlı Tavuk","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWb3BVxhMckLDhgRMEk6DT_tj_H9MuV0CAbFVmRHMSC1M1J9MwG2Mk9aIGREPVtVjQNCM&usqp=CAU","price":280},
-        {"name":"Kalamar","desc":"250 gr","image":"https://baliktarifi.com/wp-content/uploads/2016/01/tavada-kitir-kalamar-tarifi-500x375.jpg","price":500},
+        {"name":"Kalamar","desc":"250 gr","image":"foto_/kalamar.jpg","price":500},
         {"name":"Karışık Pide","desc":"","image":"https://media-cdn.tripadvisor.com/media/photo-p/13/db/5a/b8/karisik-pide.jpg","price":300},
         {"name":"Kaşarlı Pide","desc":"","image":"https://redpineguesthouse.com/wp-content/uploads/2025/05/1719392687667bd9af4ef8f.jpg","price":170},
         {"name":"Kuşbaşı Pide","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/kusgkasg_10.webp","price":240},
         {"name":"Kıymalı Pide","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX_5JVufxQD8gSBfqlhS_NYk1TibqMoaNPYw&s","price":240},
-        {"name":"Kuzu Kül Bastı","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge/kuzu-kulbasti-a6dfcb90-4693-4bf6-8c72-298068d098a5","price":420},
+        {"name":"Kuzu Kül Bastı","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/kuzu-kucc88lbasti2-12-32-36-pm.webp","price":420},
         {"name":"Halep Kebabı","desc":"","image":"https://media.cumhuriyet.com.tr/Archive//2025/1/15/2289468/kapak_112749.jpg","price":500},
         {"name":"Biftek","desc":"","image":"https://samsunozdiyarbakir.com/wp-content/uploads/2025/05/biftek.webp","price":600},
         {"name":"Çifteli Lahmacun","desc":"","image":"https://media.istockphoto.com/id/1370763091/tr/foto%C4%9Fraf/turkish-foods-turkish-pizza-lahmacun.jpg?s=612x612&w=0&k=20&c=HAXK8qe4QbQ6Srbv5R0rTa4wSn5-xMQ9Pj8HpFF5aVI=","price":250},
@@ -59,7 +59,7 @@
         {"name":"Bonfile","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-secondary/mukemmel-et-nasil-pisirilir-314a2432-6096-47e3-95c8-fa3e5a311da5.jpg","price":600},
         {"name":"Hamsi","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12mHj_eDyXQUaTUCXj73HuWEOkkajszJKrw&s","price":450},
         {"name":"Lokum Et Bonfile","desc":"","image":"https://www.balikesireti.com/image/cache/data/products/dana-bonfile-600x582-1000x1000.jpg","price":600},
-        {"name":"Yaprak Steak","desc":"","image":"https://d329st1qht6i0g.cloudfront.net/wp-content/uploads/sites/4/2021/01/16161646/Scotch-Fillet-Steak.png","price":600}
+        {"name":"Yaprak Steak","desc":"","image":"foto_/yaprak.png","price":600}
       ]
     },
     {
@@ -111,7 +111,7 @@
     {
       "name": "Közleme",
       "desc": "",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18_1OhQwHjCJGteJGL-zBMXLBeDEBkQS5uQ&s",
+      "image": "foto_/közleme.jpg",
       "price": 170
     },
     {
@@ -120,10 +120,11 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2IFRuf36Rs0HCx8pEEzX6m6b-Fa7CsbkB6Q&s",
       "price": 170
     },
+    {"name":"Acılı Atom","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6vr4GGd65vlzPq4GcpYSZlbavn6422uSbBA&s","price":200},
     {
-      "name": "Kızarmış Peynir",
+      "name": "Kızartılmış Peynir",
       "desc": "",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxM_awdP8b86sZRgUhSWxQTSGxX5jub9P5Q&s",
+      "image":"https://avatars.mds.yandex.net/get-neurolib-art/16466759/picture-WeeSmUy1jh3ADiQcNFzC/orig",
       "price": 260
     }
   ]
@@ -136,6 +137,7 @@
       
         {"name":"Süzme Yoğurt","desc":"","image":"https://i.lezzet.com.tr/images-800x600/yogurtlu-meze-tarifleri--bs64-5e5234cd-e957-4a4e-91b7-e845b4c97200","price":140},
         {"name":"Babagannüç","desc":"","image":"https://i.ytimg.com/vi/fyngdPJx9XU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCawZGhf55ZEbBk02UC8aTGqHWnIg","price":140},
+        {"name":"Dereotu Yoğurtlama","desc":"","image":"foto_/dereotu.jpg","price":140},
         {"name":"Patlıcan Yoğurtlama","desc":"","image":"https://lh4.googleusercontent.com/proxy/8SNmQkZ6B6-44ADPNAP38QxzTQGz33P0Gpa6vI6cZvBShYZYasXy2vAvnNB5S6GyTcleW4CuVI1dlbh7Iy48AcX6lPNcOJx67KFdKVso1Rb-x8gkmY5SDEEgYDfzKhd1hGUthQ","price":140},
         {"name":"Biber Yoğurtlama","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOh3fiIq835JqaU_lrIRX-GlHiC-7IiIHVGA&s","price":140},
         {"name":"Zengin","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMqYUrtpIErD68Au731TPbHsCMmoH-IdJvOQ&s","price":140},
@@ -144,11 +146,12 @@
         {"name":"Prenses","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfC_Rwagq0RKVfGiFTBOE0w4bNevbAvI8XhzFG2ZCoABJQuLB39qQmKBj214LPzHvMtg&usqp=CAU","price":140},
         {"name":"Roka Yoğurtlama","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/yogurtlu-roka-salatasi-tarifi-c77fcd9f-066b-45ae-a6c4-7b609b960033.jpg","price":140},
         {"name":"Havuç Yoğurtlama","desc":"","image":"https://img.piri.net/piri/upload/image/2019/5/24/38a8f502-2_05292079.jpg","price":140},
-        {"name":"Tarator","desc":"","image":"https://i.tmgrup.com.tr/sfr/2025/09/22/havuc-tarator-1758544124907.jpg","price":140},
+        {"name":"Tarator","desc":"","image":"foto_/tarator.jpg","price":140},
         {"name":"Katı Cacık","desc":"","image":"https://i.ytimg.com/vi/WQbT-E3boHA/sddefault.jpg","price":140},
         {"name":"Barbunya","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/barbunya_pilaki-d945335b-cdee-4adb-bacd-0cd5cb11e5c7.jpg","price":140},
         {"name":"Rus Salatası","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/rus-salatasi-8024cb37-9299-4027-84e0-c216785ee68a.jpg","price":140},
-        {"name":"Acılı Atom","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6vr4GGd65vlzPq4GcpYSZlbavn6422uSbBA&s","price":200},
+
+
         
         {"name":"Zeytin Salatası","desc":"","image":"https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/yesgil-zeytin-salatas.webp","price":140},
         {"name":"Kekik Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPT2MtFR8FTzXTlkNGvQ7SorewR1gOwmio7g&s","price":140},
@@ -159,12 +162,9 @@
         {"name":"Mevsim Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8HwkjE03Y1AEPAjHWOtZGWoAPrD1XRr6ag&s","price":170},
         {"name":"Çoban Salata","desc":"","image":"https://ia.tmgrup.com.tr/e5a31c/1200/675/0/976/1024/1551?u=https://i.tmgrup.com.tr/sfr/2025/06/03/coban-salata-1748934365715.jpg","price":170},
         {"name":"Roka Salata","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJ4dO2sG27EBxDI080skkip-yrrzOYiVXSA&s","price":170},
-        {"name":"Peynir Tabağı","desc":"","image":"https://www.shutterstock.com/image-photo/peynir-beyaz-tel-260nw-2616113147.jpg","price":200},
+        {"name":"Gavurdağı Salata","desc":"","image":"foto_/gavur.jpg","price":225},
+        {"name":"Peynir Tabağı","desc":"","image":"foto_/peynir.jpg","price":200},
         {"name":"Ezine Peynir","desc":"","image":"https://oznatur.de/cdn/shop/files/Canakkale_Ezine_Kase_600g_Kuhmilch.jpg","price":260},
-        
-        
-        {"name":"Meyve Tabağı","desc":"","image":"https://kuzeycevreyolupacahan.com.tr/wp-content/uploads/2025/02/1890da71125fc81764f4b6a5a596a229.jpg","price":150},
-        
         {"name":"Cevizli Biber Salatası","desc":"","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIS9CIqEC4vb5ds7ZEBZrTRpiVft2FnAViIw&s","price":200}
       ]
     },
@@ -199,6 +199,9 @@
         {"name": "Çörçıl", "desc": "", "image": "https://i.nefisyemektarifleri.com/2022/09/20/churchill-corcil-nedir-nasil-yapilir-7-onemli-faydasi.jpg", "price": 80}
       ]
     },
+    
+
+
     {
       "name": "İçkiler",
       "image": "https://cdn.pixabay.com/photo/2019/11/13/10/40/drinks-4623239_1280.jpg",
@@ -303,7 +306,19 @@
 
             
           ]
+          
         }
+        
+      ]
+    },
+    {
+      "name": "Tatlılar",
+      "image": "https://i.lezzet.com.tr/images-xxlarge-secondary/geleneksel-turk-tatlisi-isimleri-nelerdir-2bfd300a-f005-4147-b492-6082c4bdddb5.jpg",
+      "products": [
+        {"name":"Fıstıklı Atom","desc":"","image":"foto_/atom.jpg","price":200},
+        {"name":"Künefe","desc":"","image":"https://static.ticimax.cloud/cdn-cgi/image/width=540,quality=99/9247/uploads/blog/evde-kunefe-tarifi-0abd.jpg","price":160},
+        {"name":"Meyve Tabağı","desc":"","image":"https://kuzeycevreyolupacahan.com.tr/wp-content/uploads/2025/02/1890da71125fc81764f4b6a5a596a229.jpg","price":150},
+        {"name":"Kabak Tatlısı","desc":"","image":"https://i.lezzet.com.tr/images-xxlarge-recipe/air-fryerda-kabak-tatlisi-c6f765c0-8659-4459-bf6d-efd9badfbb99.jpg","price":100}
       ]
     }
   ]
