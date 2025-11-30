@@ -345,16 +345,35 @@
       .urunbar { top: 60px; }
       .urun-row { margin: 8px 2vw;}
       .urun-gorsel { width:20vw; max-width:75px; height:20vw; max-height:75px; margin:0 6px 0 3vw;}
-      .subcategory-buttons {
-        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-        gap: 8px;
-        margin: 15px 8px;
-        top: 115px;
-      }
-      .subcat-btn {
-        padding: 12px 8px;
-        font-size: 0.85em;
-      }
+     /* Alt kategori butonları */
+    .subcategory-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 20px 12px;
+      position: sticky;
+      top: 135px;
+      background: #fafafa;
+      padding: 10px 0;
+      z-index: 45;
+    }
+    .subcat-btn {
+      background: linear-gradient(135deg, #121213 0%, #0d0217 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 15px 10px;
+      font-size: 0.95em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
       .scroll-top-btn {
         bottom: 20px;
         right: 80px;
