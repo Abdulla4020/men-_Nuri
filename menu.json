@@ -34,7 +34,7 @@
         {"name":"Kıyma Ciğer Karışık","desc":"","image":"foto/kıymaciğer.jpeg","price":340},
         {"name":"Kuşbaşı Ciğer Karışık","desc":"","image":"foto/kuşbaşıciğer.jpeg","price":340},
         {"name":"Tavuk Kuşbaşı Karışık","desc":"","image":"foto/tavukkuşbaşı.jpeg","price":300},
-        {"name":"Tavuk Ciğer Karışık","desc":"","image":"https://gunaydinet.com/wp-content/uploads/2025/01/Kebap-Karisik-Izgara.jpg","price":300},
+        {"name":"Tavuk Ciğer Karışık","desc":"","image":"foto/tavukciğer.jpeg","price":300},
         {"name":"Kıyma Kuşbaşı Karışık","desc":"","image":"foto/kıymakuşbaşı.jpeg","price":340},
         {"name":"Kıyma Tavuk Karışık","desc":"","image":"foto/kıymatavuk.jpeg","price":300},
         
@@ -54,12 +54,13 @@
         {"name":"Kuşbaşı Pide","desc":"","image":"foto/kuşbaşıpide.jpeg","price":240},
         {"name":"Kıymalı Pide","desc":"","image":"foto/kıymalıpide.jpeg","price":240},
         {"name":"Kuzu Kül Bastı","desc":"","image":"foto/kuzukül.jpeg","price":420},
-        {"name":"Halep Kebabı","desc":"","image":"foto/halepkebap.jpeg","price":500},
+        {"name":"Halep Kebabı","desc":"","image":"foto/halep1.jpg","price":420},
+        
         {"name":"Biftek","desc":"","image":"foto/biftek.jpeg","price":600},
       
         {"name":"Et Pirzola","desc":"","image":"foto/etprizola.jpeg","price":400},
         {"name":"Bonfile","desc":"","image":"foto/bonfile.jpeg","price":600},
-        {"name":"Balık","desc":"","image":"foto/balık.jpeg","price":450},
+        {"name":"Balık","desc":"","image":"foto/balık.jpeg","price":500},
         {"name":"Antrikot","desc":"","image":"foto/600antrikot.jpeg","price":600}
        
       ]
@@ -84,7 +85,7 @@
       "name": "Çiğ Köfte",
       "desc": "",
       "image": "foto/çiğköfte.jpeg",
-      "price": 320
+      "price": 280
     },
     {
       "name": "Patates Cipsi",
@@ -140,14 +141,14 @@
         {"name":"Süzme Yoğurt","desc":"","image":"foto/süzmey.jpeg","price":140},
         {"name":"Semiz Otu Yoğurtlama","desc":"","image":"foto/semizotu.jpeg","price":140},
         {"name":"Abagannüç","desc":"","image":"foto/abagannuc.jpeg","price":140},
-        {"name":"Dereotu Yoğurtlama","desc":"","image":"foto/dereotu.jpg","price":140},
+       
         {"name":"Patlıcan Yoğurtlama","desc":"","image":"foto/patlıcanyoğurt.jpeg","price":140},
         {"name":"Biber Yoğurtlama","desc":"","image":"foto/biberygrtlma.jpeg","price":140},
         {"name":"Zengin","desc":"","image":"foto/zengin.jpeg","price":140},
         {"name":"Cevizli Biber","desc":"","image":"foto/cevizli.jpeg","price":140},
         {"name":"Haydari","desc":"","image":"foto/haydari.jpeg","price":140},
         {"name":"Prenses","desc":"","image":"foto/prenses.jpeg","price":140},
-        {"name":"Roka Yoğurtlama","desc":"","image":"foto/rokasalata.jpeg","price":140},
+        
         {"name":"Havuç Yoğurtlama","desc":"","image":"foto/havuçyoğurt.jpeg","price":140},
         {"name":"Tarator","desc":"","image":"foto/tarator.jpeg","price":140},
         {"name":"Katı Cacık","desc":"","image":"foto/katıcacık.jpeg","price":140},
@@ -176,11 +177,11 @@
       "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",
       "products": [
         {"name": "Kapalı Ayran", "desc": "", "image": "https://static.ticimax.cloud/37490/uploads/urunresimleri/buyuk/bardak-ayran-manda-sutunden-300-ml-sad-4766-b.jpg", "price": 40},
-        {"name": "Açık Ayran", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7g8bi2x4D3f6E0IT5XwYd89sdsUV4_rlWWw&s", "price": 45},
-        {"name": "Sürahi Ayran", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsD9v672Ni85IEplMNvtqkytoKc1hpPUeImw&s", "price": 140},
+        {"name": "Açık Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 45},
+        {"name": "Sürahi Ayran", "desc": "", "image": "foto/ayran.jpg", "price": 140},
         {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 65},
-        {"name": "Şalgam ", "desc": "33 ml", "image": "https://static.ticimax.cloud/5216/uploads/urunresimleri/buyuk/salgam-suyu---1-lt-c171.jpg", "price": 50},
-        {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "https://static.ticimax.cloud/5216/uploads/urunresimleri/buyuk/salgam-suyu---1-lt-c171.jpg", "price": 85},
+        {"name": "Şalgam ", "desc": "33 ml", "image": "foto/salgam2.jpeg", "price": 50},
+        {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "foto/salgam1.jpg", "price": 85},
         {"name": "Küçük Su", "desc": "", "image": "https://www.konhaber.com/sahifeler/2013/01/03/havadis/detayfc2b8faa8666faa18e3565bbe6a23bb8.jpg", "price": 15},
         {"name": "Büyük Su ", "desc": "1.5 Litre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFz_ckWkcmMfrvaUETc0qEk6Y30olNPNB9g&s", "price": 30},
         {"name": "Sade Soda", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdc_Ggb-6BJygRyNVwl7dToGqmhDORzwr4fA&s", "price": 25},
@@ -198,6 +199,7 @@
         {"name": "CocaCola Zero", "desc": "", "image": "https://images.migrosone.com/sanalmarket/product/08010202/08010202_1-493823-1650x1650.jpg", "price": 65},
         {"name": "Fanta ", "desc": "1 Litre", "image": "https://nasdoner.com/admin/public/img/products/fanta-1-lt.webp?ver=1.2.0", "price": 85},
         {"name": "Sprite ", "desc": "1 Litre", "image": "https://img-bizimtoptan.mncdn.com/Content/Images/Thumbs/3286962.jpeg", "price": 85},
+        {"name": "Redbull", "desc": "", "image": "https://spice-world.co.za/cdn/shop/files/136_2008_648ad6cd85fc77.96803654_drinks_20copy_800x.jpg?v=1750759801", "price": 120},
         {"name": "Çörçıl", "desc": "", "image": "https://i.nefisyemektarifleri.com/2022/09/20/churchill-corcil-nedir-nasil-yapilir-7-onemli-faydasi.jpg", "price": 80}
       ]
     },
@@ -209,17 +211,52 @@
       "image": "https://cdn.pixabay.com/photo/2019/11/13/10/40/drinks-4623239_1280.jpg",
       "subcategories": [
         {
+  "name": "Dubleler",
+  "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=cover&w=400&q=80",
+  "products": [
+    {"name": "Double Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 250},
+    {"name": "Tek Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 180},
+    {"name": "Double Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 350},
+    {"name": "Tek Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 270},
+    {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
+    {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
+    {"name": "Duble Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 280},
+    {"name": "Jack Daniels Duble Viski", "desc": "", "image": "https://veviski.com/wp-content/uploads/2024/01/Jack-Daniels-Bonded-scaled-e1706217489550.jpg", "price": 370},
+    {"name": "Kadeh Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 200},
+    {"name": "Tek Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 170},
+    {"name": "Çerez", "desc": "", "image": "https://www.muskoshop.com/besli-karisik-cerez-kg-karisik-kuruyemisler-1574-88-O.jpg", "price": 200}
+    
+  ]
+},
+
+        
+        {
           "name": "Rakılar",
           "image": "https://images.unsplash.com/photo-1468015223693-411e1f47d273?auto=format&fit=cover&w=200&q=80",
           "products": [
-             {"name": "Double Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 250},
-            {"name": "Tek Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 180},
+            
+           
             {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
             
             {"name": "35 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
             {"name": "50 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1309},
             {"name": "70 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1645},
             {"name": "100 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 2190},
+            
+            {"name": "20 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1100},
+            {"name": "35 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1325},
+            {"name": "50 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1835},
+            {"name": "70 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 2375},
+            {"name": "100 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 3045},
+
+            {"name": "20 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 800},
+            {"name": "35 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 875},
+            {"name": "50 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 1205},
+            {"name": "70 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 1533},
+            {"name": "100 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 1995},
+            
+
+            
             {"name": "35 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 1190},
             {"name": "70 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2100},
             {"name": "100 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2650},
@@ -266,10 +303,7 @@
           "name": "Viskiler & Vodkalar",
           "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=cover&w=400&q=80",
           "products": [
-            {"name": "Double Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 350},
-            {"name": "Tek Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 270},
-            {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
-            {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
+           
             {"name": "35 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 960},
             {"name": "50 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 1330},
             {"name": "70 cl Red Label", "desc": "", "image": "https://veviski.com/wp-content/uploads/2017/03/Johnnie-Walker-Red-Label.png", "price": 1750},
