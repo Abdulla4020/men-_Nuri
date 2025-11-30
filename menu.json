@@ -176,8 +176,8 @@
       "name": "İçecekler",
       "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",
       "products": [
-        {"name": "Kapalı Ayran", "desc": "", "image": "https://static.ticimax.cloud/37490/uploads/urunresimleri/buyuk/bardak-ayran-manda-sutunden-300-ml-sad-4766-b.jpg", "price": 40},
-        {"name": "Açık Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 45},
+        {"name": "Kapalı Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 40},
+        {"name": "Açık Ayran", "desc": "", "image": "https://hankebap.com.tr/img/uploads/big/ayran_135.jpg", "price": 45},
         {"name": "Sürahi Ayran", "desc": "", "image": "foto/ayran.jpg", "price": 140},
         {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 65},
         {"name": "Şalgam ", "desc": "33 ml", "image": "foto/salgam2.jpeg", "price": 50},
