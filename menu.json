@@ -60,7 +60,7 @@
       
         {"name":"Et Pirzola","desc":"","image":"foto/etprizola.jpeg","price":400},
         {"name":"Bonfile","desc":"","image":"foto/bonfile.jpeg","price":600},
-        {"name":"Balık","desc":"","image":"foto/balık.jpeg","price":500},
+        {"name":"Balık","desc":"","image":"foto/balık2.png","price":500},
         {"name":"Antrikot","desc":"","image":"foto/600antrikot.jpeg","price":600}
        
       ]
@@ -177,21 +177,21 @@
       "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",
       "products": [
         {"name": "Kapalı Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 40},
-        {"name": "Açık Ayran", "desc": "", "image": "https://hankebap.com.tr/img/uploads/big/ayran_135.jpg", "price": 45},
+        {"name": "Açık Ayran", "desc": "", "image": "https://cakirestoran.com/wp-content/webp-express/webp-images/uploads/2024/10/caki-eksikler0014-1-scaled-1024x1024.jpg.webp", "price": 45},
         {"name": "Sürahi Ayran", "desc": "", "image": "foto/ayran.jpg", "price": 140},
         {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 65},
         {"name": "Şalgam ", "desc": "33 ml", "image": "foto/salgam2.jpeg", "price": 50},
         {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "foto/salgam1.jpg", "price": 85},
         {"name": "Küçük Su", "desc": "", "image": "https://www.konhaber.com/sahifeler/2013/01/03/havadis/detayfc2b8faa8666faa18e3565bbe6a23bb8.jpg", "price": 15},
         {"name": "Büyük Su ", "desc": "1.5 Litre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFz_ckWkcmMfrvaUETc0qEk6Y30olNPNB9g&s", "price": 30},
-        {"name": "Sade Soda", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdc_Ggb-6BJygRyNVwl7dToGqmhDORzwr4fA&s", "price": 25},
+        {"name": "Sade Soda", "desc": "", "image": "https://dunloppasta.com/wp-content/uploads/2023/06/beypazari_sade.webp", "price": 25},
         {"name": "Kola ", "desc": "1 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 85},
         {"name": "Kola ", "desc": "1.5 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 95},
         {"name": "Kola ", "desc": "2.5 Litre", "image": "https://images.migrosone.com/hemen/product/08011700/08011700_1-802afc-1650x1650.jpg", "price": 110},
         
-        {"name": "Limonata", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMHuFbZQp4exuBwx35lIkozKfONCoCKkm7Q&s", "price": 90},
+        {"name": "Limonata", "desc": "", "image": "https://elizinn.com.tr/wp-content/uploads/2022/11/limonata-sq.jpg", "price": 90},
         
-        {"name": "Portakal Suyu", "desc": "Taze", "image": "https://media.istockphoto.com/id/152971676/tr/foto%C4%9Fraf/glass-of-orange-juice-and-fresh-oranges.jpg?s=612x612&w=0&k=20&c=sGGSSC-NRxQJLBkjGsDV5hQUk2dye7z7txOjyPy0M1Y=", "price": 90},
+        {"name": "Portakal Suyu", "desc": "Taze", "image": "https://cdn.medicalpark.com.tr/portakal-suyunun-faydalari.jpg", "price": 90},
         {"name": "Meyve Suyu", "desc": "", "image": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/h3a/h7e/8888106582046/55778_0_521Wx521H", "price": 65},
         {"name": "Fanta Kutu", "desc": "", "image": "https://www.fiemfidoner.com.tr/image/cache/catalog/urun_resimleri/icecekler/fanta_kutu-1233x823.jpg", "price": 65},
         {"name": "Sprite Kutu", "desc": "", "image": "https://pizzarianpizza.com/wp-content/uploads/2024/12/sprite.png", "price": 65},
@@ -215,8 +215,8 @@
   "products": [
     {"name": "Double Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 250},
     {"name": "Tek Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 180},
-    {"name": "Double Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 350},
-    {"name": "Tek Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 270},
+    {"name": "Double Viski", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/09/viski-ve-buz.webp", "price": 350},
+    {"name": "Tek Viski", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/09/viski-ve-buz.webp", "price": 270},
     {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
     {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
     {"name": "Duble Beylerbeyi Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icksrp008teragold32048.png?v=1702107430&width=1500", "price": 280},
@@ -295,13 +295,13 @@
           "name": "Biralar",
           "image": "https://images.unsplash.com/photo-1468015223693-411e1f47d273?auto=format&fit=cover&w=200&q=80",
           "products": [
-            {"name": "Bira Tuborg Gold", "desc": "", "image": "https://tuzubiberibostanli.tubatux.com/wp-content/uploads/2023/12/IMG_6243-e1703952668158.webp", "price": 150},
+            {"name": "Bira Tuborg Gold", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/bc75a0e5-1e52-41a5-be37-5c7cb8c84adb.JPG", "price": 150},
             {"name": "Bira Efes", "desc": "", "image": "https://qr.tuwanamenu.com/resimler/datab/efes_malt.jpg", "price": 150},
-            {"name": "Bira Kırmızı Tuborg", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzEINiVgiJZQXG04UEP5rrQVB0SQxPDubZu89H8NzSgm21L8cUCdl-9iJGyx1rNmcKgn4&usqp=CAU", "price": 170},
-            {"name": "Bira Miller", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/018d07bf-388c-4976-8229-fff04ef9d9afa1711ea0-d526-460b-ba0b-19b57e9e2ff2.jpg", "price": 160},
+            {"name": "Bira Kırmızı Tuborg", "desc": "", "image": "https://i.pinimg.com/1200x/f1/94/c0/f194c01a5849a31dfa8b347f5b2d6f05.jpg", "price": 170},
+            {"name": "Bira Miller", "desc": "", "image": "https://www.millergenuinedraft.com/sites/mgdglobal/files/2020-03/brand_mobile_bottle_1329x1080_3.jpg", "price": 160},
             {"name": "Bira Corona", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/b2b8eb1b-0afc-42ec-9802-7de811eba82f3d6e3b70-468c-444b-bffa-8ba807b05941.jpg", "price": 180},
             {"name": "Bomonti Bira", "desc": "", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bomonti_Bira_Red_Ale.jpg/800px-Bomonti_Bira_Red_Ale.jpg", "price": 180},
-            {"name": "Carlsberg Bira", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/07/images.jpg", "price": 150}
+            {"name": "Carlsberg Bira", "desc": "", "image": "https://i0.wp.com/www.barokulu.com/wp-content/uploads/2020/12/carlsberg.jpg?ssl=1", "price": 150}
           ]
         },
         {
