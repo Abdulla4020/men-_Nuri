@@ -54,7 +54,7 @@
         {"name":"Kuşbaşı Pide","desc":"","image":"foto/kuşbaşıpide.jpeg","price":240},
         {"name":"Kıymalı Pide","desc":"","image":"foto/kıymalıpide.jpeg","price":240},
         {"name":"Kuzu Kül Bastı","desc":"","image":"foto/kuzukül.jpeg","price":420},
-        {"name":"Halep Kebabı","desc":"","image":"foto/halep1.jpg","price":420},
+        
         
         {"name":"Biftek","desc":"","image":"foto/biftek.jpeg","price":600},
       
@@ -191,7 +191,6 @@
         
         {"name": "Limonata", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMHuFbZQp4exuBwx35lIkozKfONCoCKkm7Q&s", "price": 90},
         
-        {"name": "Limonata Sürahi", "desc": "", "image": "https://st2.depositphotos.com/1001069/11933/i/450/depositphotos_119338916-stock-photo-lemonade-with-lemon-mint-and.jpg", "price": 130},
         {"name": "Portakal Suyu", "desc": "Taze", "image": "https://media.istockphoto.com/id/152971676/tr/foto%C4%9Fraf/glass-of-orange-juice-and-fresh-oranges.jpg?s=612x612&w=0&k=20&c=sGGSSC-NRxQJLBkjGsDV5hQUk2dye7z7txOjyPy0M1Y=", "price": 90},
         {"name": "Meyve Suyu", "desc": "", "image": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/h3a/h7e/8888106582046/55778_0_521Wx521H", "price": 65},
         {"name": "Fanta Kutu", "desc": "", "image": "https://www.fiemfidoner.com.tr/image/cache/catalog/urun_resimleri/icecekler/fanta_kutu-1233x823.jpg", "price": 65},
@@ -220,7 +219,7 @@
     {"name": "Tek Viski", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-HLtiluQLsDzBZnb2x1w4FTr861SCfoeB7S7LZDF01whO6dHNTdDH6t72PSE_Lgn0fI&usqp=CAU", "price": 270},
     {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
     {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
-    {"name": "Duble Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 280},
+    {"name": "Duble Beylerbeyi Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icksrp008teragold32048.png?v=1702107430&width=1500", "price": 280},
     {"name": "Jack Daniels Duble Viski", "desc": "", "image": "https://veviski.com/wp-content/uploads/2024/01/Jack-Daniels-Bonded-scaled-e1706217489550.jpg", "price": 370},
     {"name": "Kadeh Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 200},
     {"name": "Tek Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 170},
@@ -236,18 +235,17 @@
           "products": [
             
            
-            {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
+            {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 931},
+            {"name": "35 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 931},
+            {"name": "50 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/5579bad4-f4aa-4a34-94b9-34e985f97208.jpg", "price": 1309},
+            {"name": "70 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/5579bad4-f4aa-4a34-94b9-34e985f97208.jpg", "price": 1645},
+            {"name": "100 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 2190},
             
-            {"name": "35 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 931},
-            {"name": "50 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1309},
-            {"name": "70 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 1645},
-            {"name": "100 cl Tekirdağ Rakı", "desc": "", "image": "https://dilararestaurant.karekodmenu.net/upload/service/tekirdag-raki-20-cl.png", "price": 2190},
-            
-            {"name": "20 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1100},
-            {"name": "35 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1325},
-            {"name": "50 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 1835},
-            {"name": "70 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 2375},
-            {"name": "100 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/59/beyler-beyi-gobek-35-cl-mobil.jpg", "price": 3045},
+            {"name": "20 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/58/beyler-beyi-gobek-20-cl-mobil.jpg", "price": 1100},
+            {"name": "35 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/58/beyler-beyi-gobek-20-cl-mobil.jpg", "price": 1325},
+            {"name": "50 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/60/beyler-beyi-gobek-50-cl-mobil.jpg", "price": 1835},
+            {"name": "70 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/60/beyler-beyi-gobek-50-cl-mobil.jpg", "price": 2375},
+            {"name": "100 cl Beylerbeyi Göbek Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/60/beyler-beyi-gobek-50-cl-mobil.jpg", "price": 3045},
 
             {"name": "20 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 800},
             {"name": "35 cl Yeni Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/71/yeni-raki-35-cl-mobil.jpg", "price": 875},
@@ -260,30 +258,37 @@
             {"name": "35 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 1190},
             {"name": "70 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2100},
             {"name": "100 cl Tekirdağ Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof024tekirdaggobek3_c916a959-99f4-4da0-ad63-04f3936f286d.png?v=1760672699&width=1500", "price": 2650},
+
             {"name": "70 cl Yeni Ala Rakı", "desc": "", "image": "https://i.pinimg.com/736x/44/4e/eb/444eeb2a408269a3fd6821da6db53d82.jpg", "price": 2100},
-            {"name": "20 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 950},
-            {"name": "35 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1115},
-            {"name": "50 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1523},
-            {"name": "70 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 1925},
-            {"name": "100 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icktof002tekirdaggold1.png?v=1760671480&width=3840", "price": 2695},
             {"name": "100 cl İzmir Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7FTK0VTq8s4zWPKoB5__e6a4WJT7YrdOMnA&s", "price": 1785},
+            {"name": "100 cl Saki Delux Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUSI5zWHX8OyDAUVvm4GxHM87xgYB3jXKyCbQ_z_K-VPTr8_KTFSF1UlEVT_n54bahbNc&usqp=CAU", "price": 2240},
+           
+
+            {"name": "20 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/66/6581-tekirdag-altin-seri-20-cl.jpg", "price": 950},
+            {"name": "35 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/67/tekirdag-altin-seri-35-cl-mobil.jpg", "price": 1115},
+            {"name": "50 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/68/tekirdag-altin-seri-50-cl-mobil.jpg", "price": 1523},
+            {"name": "70 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/130/65-rak%C4%B1.jpg", "price": 1925},
+            {"name": "100 cl Tekirdağ Altın Seri Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/130/65-rak%C4%B1.jpg", "price": 2695},
+
+            
             {"name": "20 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 730},
             {"name": "35 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 945},
             {"name": "50 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 1330},
             {"name": "70 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 1715},
             {"name": "100 cl Yeni Seri Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/4835a6b6-5324-442c-b176-02ffd9f6bd5425851fca-f1ba-4c16-ae7b-c915fe3b0c50.jpg", "price": 2190},
+
             {"name": "20 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 700},
             {"name": "35 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 970},
             {"name": "50 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 1330},
             {"name": "70 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 1680},
             {"name": "100 cl Yeşil Efe Rakı", "desc": "", "image": "https://www.barokulu.com/wp-content/uploads/2024/03/efe-yas-uzum.jpg", "price": 2180},
-            {"name": "20 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 800},
-            {"name": "35 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1115},
-            {"name": "50 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1530},
-            {"name": "70 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 1925},
-            {"name": "100 cl Efe Gold Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/979f7c0a-c2bf-4cfc-877a-a8b372911bea13ac2d90-bf34-4617-b0a6-78a491bd8196.jpeg", "price": 2415},
-            {"name": "100 cl Saki Delux Rakı", "desc": "", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUSI5zWHX8OyDAUVvm4GxHM87xgYB3jXKyCbQ_z_K-VPTr8_KTFSF1UlEVT_n54bahbNc&usqp=CAU", "price": 2240}
-           
+
+            {"name": "20 cl Efe Gold Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/62/efe-gold-20-cl-mobil.jpg", "price": 800},
+            {"name": "35 cl Efe Gold Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/63/efe-gold-35-cl-mobil.jpg", "price": 1115},
+            {"name": "50 cl Efe Gold Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/64/efe-gold-50-cl-mobil.jpg", "price": 1530},
+            {"name": "70 cl Efe Gold Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/65/efe-gold-70-cl-mobil.jpg", "price": 1925},
+            {"name": "100 cl Efe Gold Rakı", "desc": "", "image": "https://tandirhousecappadocia.com/images/resim/129/efe.jpg", "price": 2415}
+            
           ]
         },
         {
