@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "regions": ["iad1"],
   "headers": [
     {
       "source": "/(.*)",
@@ -9,7 +11,7 @@
         },
         {
           "key": "X-Frame-Options",
-          "value": "DENY"
+          "value": "SAMEORIGIN"
         },
         {
           "key": "X-XSS-Protection",
@@ -17,7 +19,7 @@
         },
         {
           "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
+          "value": "no-referrer-when-downgrade"
         },
         {
           "key": "Permissions-Policy",
@@ -25,7 +27,7 @@
         },
         {
           "key": "Strict-Transport-Security",
-          "value": "max-age=31536000; includeSubDomains; preload"
+          "value": "max-age=31536000; includeSubDomains"
         },
         {
           "key": "Cache-Control",
@@ -37,7 +39,45 @@
         },
         {
           "key": "Keep-Alive",
-          "value": "timeout=5, max=1000"
+          "value": "timeout=10, max=1000"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        }
+      ]
+    },
+    {
+      "source": "/foto/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/menu.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, must-revalidate"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     }
@@ -47,6 +87,11 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "**/*.js": {
+      "maxDuration": 10
+    }
+  }
 }
 
