@@ -464,19 +464,25 @@
     let allProducts = [];
     let currentPriceFilter = 'all';
     
-    // Retry mekanizması ile fetch fonksiyonu
-    async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
+    // Retry mekanizması ile fetch fonksiyonu - daha agresif
+    async function fetchWithRetry(url, options = {}, retries = 5, delay = 2000) {
+      const fullUrl = url.startsWith('http') ? url : `${window.location.origin}/${url}`;
+      
       for (let i = 0; i < retries; i++) {
         try {
           const controller = new AbortController();
-          const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 saniye timeout
+          const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 saniye timeout
           
-          const response = await fetch(url, {
+          const response = await fetch(fullUrl, {
             ...options,
             signal: controller.signal,
-            cache: 'no-cache',
+            cache: 'no-store',
+            mode: 'cors',
+            credentials: 'omit',
             headers: {
-              'Cache-Control': 'no-cache',
+              'Cache-Control': 'no-cache, no-store, must-revalidate',
+              'Pragma': 'no-cache',
+              'Expires': '0',
               ...options.headers
             }
           });
@@ -489,9 +495,49 @@
           
           return response;
         } catch (error) {
-          if (i === retries - 1) throw error;
-          await new Promise(resolve => setTimeout(resolve, delay * (i + 1)));
+          console.warn(`Fetch attempt ${i + 1} failed for ${url}:`, error.message);
+          if (i === retries - 1) {
+            // Son denemede farklı bir URL dene (CDN fallback)
+            if (url.includes('menu.json')) {
+              try {
+                const fallbackUrl = `${window.location.origin}/menu.json?t=${Date.now()}`;
+                const fallbackResponse = await fetch(fallbackUrl, {
+                  cache: 'no-store',
+                  mode: 'cors'
+                });
+                if (fallbackResponse.ok) return fallbackResponse;
+              } catch (e) {
+                console.error('Fallback also failed:', e);
+              }
+            }
+            throw error;
+          }
+          // Exponential backoff
+          await new Promise(resolve => setTimeout(resolve, delay * Math.pow(2, i)));
         }
+      }
+    }
+    
+    // Görsel yükleme için error handler
+    function handleImageError(img) {
+      img.onerror = function() {
+        const originalSrc = this.dataset.originalSrc || this.src;
+        if (!this.dataset.retryCount) this.dataset.retryCount = '0';
+        const retryCount = parseInt(this.dataset.retryCount);
+        
+        if (retryCount < 3) {
+          this.dataset.retryCount = (retryCount + 1).toString();
+          // Farklı bir zaman damgası ile tekrar dene
+          const separator = originalSrc.includes('?') ? '&' : '?';
+          this.src = `${originalSrc}${separator}t=${Date.now()}`;
+        } else {
+          // Son çare olarak placeholder göster
+          this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5Hw7ZybnRlbCB5w7xrbGVuZW1lZGl8L3RleHQ+PC9zdmc+';
+          this.style.opacity = '0.5';
+        }
+      };
+      if (!img.dataset.originalSrc) {
+        img.dataset.originalSrc = img.src;
       }
     }
     
@@ -538,12 +584,19 @@
       kategoriler.forEach((kat, i) => {
         const isPopular = popularItems.includes(kat.name);
         html += `<div class="cat-card" onclick="kategoriTikla(${i})">
-          <img src="${kat.image}" alt="${kat.name}" loading="lazy">
+          <img src="${kat.image}" alt="${kat.name}" loading="lazy" onerror="handleImageError(this)">
           ${isPopular ? '<div class="popular-badge">🔥 Popüler</div>' : ''}
           <div class="cat-title">${kat.name}</div>
         </div>`;
       });
       document.getElementById("category-grid").innerHTML = html;
+      
+      // Tüm görsellere error handler ekle
+      setTimeout(() => {
+        document.querySelectorAll('#category-grid img').forEach(img => {
+          handleImageError(img);
+        });
+      }, 100);
     }
     
     function kategoriTikla(index) {
@@ -605,7 +658,7 @@
           : "";
         
         html += `<div class="urun-row" onclick='openModal(${JSON.stringify(urun).replace(/'/g, "&#39;")})'>
-          <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy">
+          <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy" onerror="handleImageError(this)">
           <div class="urun-detay">
             <div class="urun-isim">${urun.name}</div>
             <div class="urun-aciklama">${urun.desc || ""}</div>
@@ -617,7 +670,9 @@
     }
     
     function openModal(urun) {
-      document.getElementById('modalImg').src = urun.image;
+      const modalImg = document.getElementById('modalImg');
+      modalImg.src = urun.image;
+      handleImageError(modalImg);
       document.getElementById('modalTitle').innerText = urun.name;
       document.getElementById('modalDesc').innerText = urun.desc || 'Detaylı açıklama bulunmamaktadır.';
       document.getElementById('modalPrice').innerText = urun.price ? `${urun.price.toLocaleString("tr-TR")} ₺` : 'Fiyat bilgisi yok';
@@ -702,7 +757,7 @@
           filtered.forEach(urun => {
             const fiyatHTML = urun.price ? `<div class="urun-fiyat">${urun.price.toLocaleString("tr-TR")} ₺</div>` : "";
             html += `<div class="urun-row" onclick='openModal(${JSON.stringify(urun).replace(/'/g, "&#39;")})'>
-              <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy">
+              <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy" onerror="handleImageError(this)">
               <div class="urun-detay">
                 <div class="urun-isim">${urun.name}</div>
                 <div class="urun-aciklama">${urun.category}${urun.subcategory ? ' - ' + urun.subcategory : ''}</div>
@@ -760,6 +815,7 @@
     window.openModal = openModal;
     window.closeModal = closeModal;
     window.filterByPrice = filterByPrice;
+    window.handleImageError = handleImageError;
     
     // Tarayıcı geri tuşu kontrolü
     window.addEventListener('popstate', function(event) {
