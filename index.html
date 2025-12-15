@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="dns-prefetch" href="https://men-nuri.vercel.app">
+  <link rel="preconnect" href="https://men-nuri.vercel.app" crossorigin>
   <title>Nuri Restoran Menü</title>
   <style>
     html,body { margin:0; padding:0; font-family: 'Segoe UI', Arial,sans-serif; background: #fafafa; scroll-behavior: smooth;}
@@ -460,9 +464,40 @@
     let allProducts = [];
     let currentPriceFilter = 'all';
     
+    // Retry mekanizması ile fetch fonksiyonu
+    async function fetchWithRetry(url, options = {}, retries = 3, delay = 1000) {
+      for (let i = 0; i < retries; i++) {
+        try {
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 saniye timeout
+          
+          const response = await fetch(url, {
+            ...options,
+            signal: controller.signal,
+            cache: 'no-cache',
+            headers: {
+              'Cache-Control': 'no-cache',
+              ...options.headers
+            }
+          });
+          
+          clearTimeout(timeoutId);
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          return response;
+        } catch (error) {
+          if (i === retries - 1) throw error;
+          await new Promise(resolve => setTimeout(resolve, delay * (i + 1)));
+        }
+      }
+    }
+    
     async function menuyuGetir() {
       try {
-        const res = await fetch("menu.json"); 
+        const res = await fetchWithRetry("menu.json", {}, 3, 1000); 
         menudata = await res.json();
         
         // Tüm ürünleri toplama (global arama için)
@@ -484,6 +519,15 @@
       } catch (error) {
         console.error('Menü yüklenirken hata:', error);
         document.getElementById('loadingSpinner').style.display = 'none';
+        // Kullanıcıya hata mesajı göster
+        document.getElementById('category-grid').innerHTML = `
+          <div style="padding: 40px; text-align: center; grid-column: 1/-1; background: white; border-radius: 12px; margin: 20px;">
+            <h3 style="color: #d32f2f;">Bağlantı Hatası</h3>
+            <p>Menü yüklenirken bir sorun oluştu. Lütfen tekrar deneyin.</p>
+            <button onclick="location.reload()" style="margin-top: 15px; padding: 10px 20px; background: #00897b; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold;">
+              Tekrar Dene
+            </button>
+          </div>`;
       }
     }
     
