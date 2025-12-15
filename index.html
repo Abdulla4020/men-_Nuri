@@ -7,10 +7,16 @@
   <style>
     html,body { margin:0; padding:0; font-family: 'Segoe UI', Arial,sans-serif; background: #fafafa; scroll-behavior: smooth;}
     html, body {
-      overflow-x: hidden;
-      width: 100%;
-      position: relative;
+      overflow-x: hidden !important;
+      width: 100% !important;
+      position: relative !important;
     }
+    
+    * {
+      max-width: 100vw !important;
+    }
+    
+    
     
     /* Loading Spinner */
     .loading-spinner {
@@ -54,8 +60,7 @@
       border-radius: 25px;
       outline: none;
       transition: all 0.3s;
-      background: white url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2"%3E%3Ccircle cx="11" cy="11" r="8"/%3E%3Cpath d="m21 21-4.35-4.35"/%3E%3C/svg%3E') no-repeat 15px center;
-      box-sizing: border-box;
+      background: white url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>') no-repeat 15px center;
     }
     .search-box:focus {
       border-color: #00897b;
@@ -317,11 +322,20 @@
       box-shadow: 0 6px 20px rgba(0,137,123,0.6);
     }
     
-    .error-message {
-      text-align: center;
-      padding: 40px 20px;
-      color: #ff6b6b;
-      font-size: 18px;
+    /* Skeleton Loader */
+    .skeleton {
+      background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+      background-size: 200% 100%;
+      animation: loading 1.5s infinite;
+    }
+    @keyframes loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    .skeleton-card {
+      height: 120px;
+      border-radius: 18px;
+      margin: 0 12px 18px 12px;
     }
     
     @media(max-width:650px){
@@ -331,20 +345,38 @@
       .urunbar { top: 60px; }
       .urun-row { margin: 8px 2vw;}
       .urun-gorsel { width:20vw; max-width:75px; height:20vw; max-height:75px; margin:0 6px 0 3vw;}
-      .subcategory-buttons {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        gap: 10px;
-        margin: 20px 12px;
-        top: 135px;
-      }
-      .subcat-btn {
-        padding: 15px 10px;
-        font-size: 0.95em;
-        letter-spacing: 0.5px;
-      }
+     /* Alt kategori butonları */
+    .subcategory-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 20px 12px;
+      position: sticky;
+      top: 135px;
+      background: #fafafa;
+      padding: 10px 0;
+      z-index: 45;
+    }
+    .subcat-btn {
+      background: linear-gradient(135deg, #121213 0%, #0d0217 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 15px 10px;
+      font-size: 0.95em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
       .scroll-top-btn {
         bottom: 20px;
-        right: 20px;
+        right: 80px;
         width: 50px;
         height: 50px;
       }
@@ -370,6 +402,7 @@
     <div id="menu-ana">
       <div class="hosgeldin">Hoşgeldiniz</div>
       
+      <!-- Arama Kutusu -->
       <div class="search-container">
         <input type="text" id="globalSearch" class="search-box" placeholder="Menüde ara... (örn: kebap, tavuk, rakı)">
       </div>
@@ -384,6 +417,7 @@
           <span class="cat-head" id="cat-head"></span>
         </div>
         
+        <!-- Fiyat Filtresi -->
         <div class="price-filter" id="priceFilter" style="display:none;">
           <button class="price-btn" onclick="filterByPrice('all')">Tümü</button>
           <button class="price-btn" onclick="filterByPrice(0, 200)">0-200₺</button>
@@ -392,6 +426,7 @@
           <button class="price-btn" onclick="filterByPrice(1000, 5000)">1000₺+</button>
         </div>
         
+        <!-- Ürün Arama -->
         <div class="search-container">
           <input type="text" id="productSearch" class="search-box" placeholder="Bu kategoride ara..." style="display:none;">
         </div>
@@ -402,6 +437,7 @@
     </div>
   </div>
   
+  <!-- Modal -->
   <div id="productModal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
@@ -416,6 +452,7 @@
     </div>
   </div>
   
+  <!-- Yukarı Çık Butonu -->
   <button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()">↑</button>
   
   <script>
@@ -424,18 +461,11 @@
     let currentPriceFilter = 'all';
     
     async function menuyuGetir() {
-      const loadingSpinner = document.getElementById('loadingSpinner');
-      const categoryGrid = document.getElementById('category-grid');
-      
       try {
         const res = await fetch("menu.json"); 
-        
-        if (!res.ok) {
-          throw new Error(`HTTP error! status: ${res.status}`);
-        }
-        
         menudata = await res.json();
         
+        // Tüm ürünleri toplama (global arama için)
         menudata.categories.forEach(cat => {
           if (cat.products) {
             cat.products.forEach(p => allProducts.push({...p, category: cat.name}));
@@ -450,16 +480,10 @@
         });
         
         kategorileriGoster(menudata.categories);
-        loadingSpinner.style.display = 'none';
+        document.getElementById('loadingSpinner').style.display = 'none';
       } catch (error) {
         console.error('Menü yüklenirken hata:', error);
-        loadingSpinner.style.display = 'none';
-        categoryGrid.innerHTML = `
-          <div class="error-message" style="grid-column: 1/-1;">
-            <h3>Menü yüklenirken bir hata oluştu</h3>
-            <p>Lütfen sayfayı yenileyin veya daha sonra tekrar deneyin.</p>
-            <p style="font-size: 14px; color: #999;">Hata: ${error.message}</p>
-          </div>`;
+        document.getElementById('loadingSpinner').style.display = 'none';
       }
     }
     
@@ -482,6 +506,7 @@
       activeCat = menudata.categories[index]; 
       currentPriceFilter = 'all';
       
+      // History'ye state ekle
       history.pushState({page: 'category', index: index}, '', '');
       
       document.getElementById("menu-ana").style.display = "none";
@@ -490,6 +515,7 @@
       document.getElementById("productSearch").style.display = "block";
       document.getElementById("productSearch").value = "";
       
+      // Fiyat filtresini göster
       if (activeCat.products || activeCat.subcategories) {
         document.getElementById("priceFilter").style.display = "flex";
       }
@@ -515,6 +541,7 @@
     }
     
     function altKategoriTikla(subIndex) {
+      // Aktif butonu vurgula
       document.querySelectorAll('.subcat-btn').forEach((btn, i) => {
         btn.classList.toggle('active-subcat', i === subIndex);
       });
@@ -528,15 +555,13 @@
     
     function urunleriGoster(urunler) {
       let html = "";
-      urunler.forEach((urun) => {
+      urunler.forEach((urun, index) => {
         const fiyatHTML = urun.price 
           ? `<div class="urun-fiyat">${urun.price.toLocaleString("tr-TR")} ₺</div>` 
           : "";
         
-        const urunJSON = JSON.stringify(urun).replace(/'/g, "&#39;").replace(/"/g, "&quot;");
-        
-        html += `<div class="urun-row" onclick='openModal(${urunJSON})'>
-          <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/70x70?text=Resim+Yok'">
+        html += `<div class="urun-row" onclick='openModal(${JSON.stringify(urun).replace(/'/g, "&#39;")})'>
+          <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy">
           <div class="urun-detay">
             <div class="urun-isim">${urun.name}</div>
             <div class="urun-aciklama">${urun.desc || ""}</div>
@@ -569,6 +594,7 @@
     function filterByPrice(min, max) {
       currentPriceFilter = min === 'all' ? 'all' : {min, max};
       
+      // Aktif butonu vurgula
       document.querySelectorAll('.price-btn').forEach(btn => btn.classList.remove('active'));
       event.target.classList.add('active');
       
@@ -589,6 +615,7 @@
       }
     }
     
+    // Ürün Arama
     document.addEventListener('DOMContentLoaded', function() {
       const productSearch = document.getElementById('productSearch');
       productSearch.addEventListener('input', function() {
@@ -607,6 +634,7 @@
         });
       });
       
+      // Global Arama
       const globalSearch = document.getElementById('globalSearch');
       globalSearch.addEventListener('input', function() {
         const query = this.value.toLowerCase().trim();
@@ -622,16 +650,15 @@
         );
         
         if (filtered.length > 0) {
+          // Arama sonuçlarını göster
           let html = `<div style="padding: 20px; background: white; margin: 10px 12px; border-radius: 12px;">
             <h3 style="margin-top:0;">${filtered.length} sonuç bulundu</h3>
           </div>`;
           
           filtered.forEach(urun => {
             const fiyatHTML = urun.price ? `<div class="urun-fiyat">${urun.price.toLocaleString("tr-TR")} ₺</div>` : "";
-            const urunJSON = JSON.stringify(urun).replace(/'/g, "&#39;").replace(/"/g, "&quot;");
-            
-            html += `<div class="urun-row" onclick='openModal(${urunJSON})'>
-              <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/70x70?text=Resim+Yok'">
+            html += `<div class="urun-row" onclick='openModal(${JSON.stringify(urun).replace(/'/g, "&#39;")})'>
+              <img src="${urun.image}" class="urun-gorsel" alt="${urun.name}" loading="lazy">
               <div class="urun-detay">
                 <div class="urun-isim">${urun.name}</div>
                 <div class="urun-aciklama">${urun.category}${urun.subcategory ? ' - ' + urun.subcategory : ''}</div>
@@ -652,6 +679,7 @@
     });
     
     function geriDon() {
+      // History'den geri gitmeyi engelle, sadece sayfayı güncelle
       if (window.history.state && window.history.state.page === 'category') {
         history.back();
       }
@@ -668,6 +696,7 @@
       window.scrollTo(0,0);
     }
     
+    // Scroll to top
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -681,13 +710,23 @@
       }
     });
     
+    window.kategoriTikla = kategoriTikla;
+    window.altKategoriTikla = altKategoriTikla;
+    window.geriDon = geriDon;
+    window.openModal = openModal;
+    window.closeModal = closeModal;
+    window.filterByPrice = filterByPrice;
+    
+    // Tarayıcı geri tuşu kontrolü
     window.addEventListener('popstate', function(event) {
       if (document.getElementById("menu-cat").style.display !== "none") {
+        // Kategori sayfasındaysa ana menüye dön
         event.preventDefault();
         geriDon();
       }
     });
     
+    // Sayfa yüklendiğinde history state ekle
     window.addEventListener('load', function() {
       history.pushState({page: 'menu'}, '', '');
     });
@@ -696,3 +735,4 @@
   </script>
 </body>
 </html>
+
