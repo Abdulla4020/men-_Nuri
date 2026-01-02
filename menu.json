@@ -4,62 +4,61 @@
       "name": "Sıcaklar",
       "image": "https://cevatusta.com.tr/wp-content/uploads/2020/11/Karisik-Kebap.jpg",
       "products": [
-        {"name":"Kıyma Tabak Servis","desc":"160 gr","image":"foto/kıyma.jpeg","price":250},
-        {"name":"Kuzu Kuşbaşı Tabak servis","desc":"160 gr","image":"foto/kuzukuşbaşı.jpeg","price":260},
-        {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"foto/kuşbaşı.jpeg","price":260},
-        {"name":"Ciğer Tabak Servis","desc":"160 gr","image":"foto/ciğer.jpeg","price":250},
-        {"name":"Tavuk But","desc":"300 gr","image":"foto/tavukbut.jpeg","price":230},
-        {"name":"Tavuk Göğüs","desc":"300 gr","image":"foto/gogus.jpeg","price":230},
-        {"name":"Tavuk Pirzola","desc":"350 gr","image":"foto/tavukpirzola.jpeg","price":250},
-        {"name":"Tavuk Kanat","desc":"300 gr","image":"foto/kanat.jpeg","price":240},
-        {"name":"Fıstıklı Beyti","desc":"220 gr","image":"foto/fbeyti.jpeg","price":350},
-        {"name":"Sarma Beyti","desc":"200 gr","image":"foto/sarma_beyti.jpeg","price":350},
+        {"name":"Kıyma Tabak Servis","desc":"160 gr","image":"foto/kıyma.jpeg","price":285},
+        {"name":"Kuzu Kuşbaşı Tabak servis","desc":"160 gr","image":"foto/kuzukuşbaşı.jpeg","price":295},
+        {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"foto/kuşbaşı.jpeg","price":295},
+        {"name":"Ciğer Tabak Servis","desc":"160 gr","image":"foto/ciğer.jpeg","price":285},
+        {"name":"Tavuk But","desc":"300 gr","image":"foto/tavukbut.jpeg","price":250},
+        {"name":"Tavuk Göğüs","desc":"300 gr","image":"foto/gogus.jpeg","price":250},
+        {"name":"Tavuk Pirzola","desc":"350 gr","image":"foto/tavukpirzola.jpeg","price":270},
+        {"name":"Tavuk Kanat","desc":"300 gr","image":"foto/kanat.jpeg","price":260},
+        {"name":"Fıstıklı Beyti","desc":"220 gr","image":"foto/fbeyti.jpeg","price":390},
+        {"name":"Sarma Beyti","desc":"200 gr","image":"foto/sarma_beyti.jpeg","price":390},
         {"name":"Tavuk Beyti","desc":"300 gr","image":"foto/tavukbeyti.jpeg","price":200},
         
        
-        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":150},
-        {"name":"Kuşbaşı Dürüm","desc":"160 gr ","image":"foto/kuşnaşıdürüm.jpeg","price":170},
-        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":150},
-        {"name":"Kıyma  Dürüm","desc":"160 gr","image":"foto/kıymadurum.jpeg","price":170},
+        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":170},
+        {"name":"Kuşbaşı Dürüm","desc":"160 gr ","image":"foto/kuşnaşıdürüm.jpeg","price":200},
+        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":170},
+        {"name":"Kıyma  Dürüm","desc":"160 gr","image":"foto/kıymadurum.jpeg","price":190},
         
-        {"name":"Ciğer Dürüm","desc":"160 gr","image":"https://www.mirzausta.com/wp-content/uploads/2021/01/maxresdefault-e1612083183996.jpg","price":150},
-        {"name":"Tepsi Et","desc":"250 gr","image":"foto/tepsiet.jpeg","price":360},
+        {"name":"Ciğer Dürüm","desc":"160 gr","image":"https://www.mirzausta.com/wp-content/uploads/2021/01/maxresdefault-e1612083183996.jpg","price":170},
+        {"name":"Tepsi Et","desc":"250 gr","image":"foto/tepsiet.jpeg","price":440},
         
-        {"name":"Kuşbaşı Tava","desc":"250 gr","image":"foto/kuşbaşıtava.jpeg","price":380},
-        {"name":"Kağıt Kebabı","desc":"250 gr","image":"foto/kağıtk.jpeg","price":350},
-        {"name":"Kuyruk Yağı","desc":"120 gr","image":"foto/kuyrukyağı.jpeg","price":150},
+        {"name":"Kuşbaşı Tava","desc":"250 gr","image":"foto/kuşbaşıtava.jpeg","price":440},
+        {"name":"Kağıt Kebabı","desc":"250 gr","image":"foto/kağıtk.jpeg","price":380},
+        {"name":"Kuyruk Yağı","desc":"120 gr","image":"foto/kuyrukyağı.jpeg","price":200},
         
-        {"name":"Fındık Lahmacun (5 adet)","desc":"","image":"foto/fındıklahmacun.jpeg","price":230},
+        {"name":"Fındık Lahmacun (5 adet)","desc":"","image":"foto/fındıklahmacun.jpeg","price":320},
         
-        {"name":"Kıyma Ciğer Karışık","desc":"220 gr","image":"foto/kıymaciğer.jpeg","price":340},
-        {"name":"Kuşbaşı Ciğer Karışık","desc":"220 gr","image":"foto/kuşbaşıciğer.jpeg","price":340},
-        {"name":"Tavuk Kuşbaşı Karışık","desc":"270 gr","image":"foto/tavukkuşbaşı.jpeg","price":300},
-        {"name":"Tavuk Ciğer Karışık","desc":"270 gr","image":"foto/tavukciğer.jpeg","price":300},
-        {"name":"Kıyma Kuşbaşı Karışık","desc":"220 gr","image":"foto/kıymakuşbaşı.jpeg","price":340},
-        {"name":"Kıyma Tavuk Karışık","desc":"270 gr","image":"foto/kıymatavuk.jpeg","price":300},
+        {"name":"Kıyma Ciğer Karışık","desc":"220 gr","image":"foto/kıymaciğer.jpeg","price":400},
+        {"name":"Kuşbaşı Ciğer Karışık","desc":"220 gr","image":"foto/kuşbaşıciğer.jpeg","price":400},
+        {"name":"Tavuk Kuşbaşı Karışık","desc":"270 gr","image":"foto/tavukkuşbaşı.jpeg","price":400},
+        {"name":"Tavuk Ciğer Karışık","desc":"270 gr","image":"foto/tavukciğer.jpeg","price":400},
+        {"name":"Kıyma Kuşbaşı Karışık","desc":"220 gr","image":"foto/kıymakuşbaşı.jpeg","price":400},
+        {"name":"Kıyma Tavuk Karışık","desc":"270 gr","image":"foto/kıymatavuk.jpeg","price":400},
         
 
-        {"name":"Patlıcan Kebabı","desc":"160 gr","image":"foto/patlıcankebap.jpeg","price":360},
+        {"name":"Patlıcan Kebabı","desc":"160 gr","image":"foto/patlıcankebap.jpeg","price":400},
         {"name":"Karides","desc":"","image":"foto/karides.jpeg","price":500},
-        {"name":"Şaşlık Kebabı","desc":"300 gr","image":"foto/şaşlık.jpeg","price":450},
-        {"name":"Koç Yumurtası","desc":"","image":"https://i.ytimg.com/vi/VIZWCkaeyAs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdTOxMP85C8WYAjchPDRb_UDtksA","price":200},
-        {"name":"Kazbaşı Et","desc":"220 gr","image":"foto/kazbaşı.jpeg","price":550},
-        {"name":"Et Sote","desc":" 250 gr","image":"foto/etsote.jpeg","price":380},
-        {"name":"Tavuk Sote","desc":"250 gr","image":"foto/tavuksote.jpeg","price":300},
-        {"name":"Kaşarlı Mantarlı Tavuk","desc":"250 gr","image":"foto/kaşarlımantarlı.jpeg","price":300},
-        {"name":"Kaşarlı Tavuk","desc":"250 gr","image":"foto/kaşarlıtavuk.jpeg","price":280},
+        {"name":"Koç Yumurtası","desc":"","image":"https://i.ytimg.com/vi/VIZWCkaeyAs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdTOxMP85C8WYAjchPDRb_UDtksA","price":250},
+        {"name":"Kazbaşı Et","desc":"220 gr","image":"foto/kazbaşı.jpeg","price":590},
+        {"name":"Et Sote","desc":" 250 gr","image":"foto/etsote.jpeg","price":440},
+        {"name":"Tavuk Sote","desc":"250 gr","image":"foto/tavuksote.jpeg","price":350},
+        {"name":"Kaşarlı Mantarlı Tavuk","desc":"250 gr","image":"foto/kaşarlımantarlı.jpeg","price":350},
+        {"name":"Kaşarlı Tavuk","desc":"250 gr","image":"foto/kaşarlıtavuk.jpeg","price":350},
         {"name":"Kalamar","desc":"250 gr","image":"foto/kalamar.jpeg","price":500},
-        {"name":"Karışık Pide","desc":"","image":"foto/karışıkpide.jpeg","price":300},
-        {"name":"Kaşarlı Pide","desc":"","image":"foto/kaşarlıpide.jpeg","price":170},
-        {"name":"Kuşbaşı Pide","desc":"","image":"foto/kuşbaşıpide.jpeg","price":240},
-        {"name":"Kıymalı Pide","desc":"","image":"foto/kıymalıpide.jpeg","price":240},
-        {"name":"Kuzu Kül Bastı","desc":"220 gr","image":"foto/kuzukül.jpeg","price":420},
+        {"name":"Karışık Pide","desc":"","image":"foto/karışıkpide.jpeg","price":350},
+        {"name":"Kaşarlı Pide","desc":"","image":"foto/kaşarlıpide.jpeg","price":200},
+        {"name":"Kuşbaşı Pide","desc":"","image":"foto/kuşbaşıpide.jpeg","price":300},
+        {"name":"Kıymalı Pide","desc":"","image":"foto/kıymalıpide.jpeg","price":300},
+        {"name":"Kuzu Kül Bastı","desc":"220 gr","image":"foto/kuzukül.jpeg","price":480},
         
         
         {"name":"Biftek","desc":"300 gr","image":"foto/biftek.jpeg","price":600},
       
-        {"name":"Et Pirzola","desc":"250 gr","image":"foto/etprizola.jpeg","price":400},
-        {"name":"Bonfile","desc":"300 gr","image":"foto/bonfile.jpeg","price":600},
+        {"name":"Et Pirzola","desc":"250 gr","image":"foto/etprizola.jpeg","price":450},
+        {"name":"Bonfile","desc":"300 gr","image":"foto/bonfile.jpeg","price":500},
         {"name":"Balık","desc":"","image":"foto/balık2.png","price":500},
         {"name":"Antrikot","desc":"300 gr","image":"foto/600antrikot.jpeg","price":600}
        
@@ -73,19 +72,19 @@
       "name": "Ali Nazik",
       "desc": "",
       "image": "foto/ali.jpeg",
-      "price": 250
+      "price": 290
     },
     {
       "name": "Tereyağlı Humus",
       "desc": "",
       "image": "foto/tereyağhumus.jpeg",
-      "price": 220
+      "price": 230
     },
     {
       "name": "Çiğ Köfte",
       "desc": "",
       "image": "foto/çiğköfte.jpeg",
-      "price": 280
+      "price": 310
     },
     {
       "name": "Patates Cipsi",
@@ -97,25 +96,25 @@
       "name": "Çorba",
       "desc": "Mercimek",
       "image": "foto/çorba.jpeg",
-      "price": 120
+      "price": 125
     },
     {
       "name": "Şam Oruğu",
       "desc": "",
       "image": "foto/şamoruk.jpeg",
-      "price": 120
+      "price": 150
     },
     {
       "name": "Fırın Oruk",
       "desc": "",
       "image": "foto/fırınoruk.jpeg",
-      "price": 500
+      "price": 390
     },
     {
       "name": "Közleme",
       "desc": "",
       "image": "foto/közleme.jpeg",
-      "price": 170
+      "price": 200
     },
     {
       "name": "Tereyağlı Sarımsak",
@@ -128,7 +127,7 @@
       "name": "Kızartılmış Peynir",
       "desc": "",
       "image":"foto/kızartmalıkpeynir.jpeg",
-      "price": 260
+      "price": 200
     }
   ]
   },
@@ -161,9 +160,9 @@
         {"name":"Kekik Salatası","desc":"","image":"foto/kekiksalat.jpeg","price":150},
         {"name":"Küçük Order Tabağı","desc":"","image":"foto/korder.jpeg","price":210},
         {"name":"Büyük Order Tabağı","desc":"","image":"foto/border.jpeg","price":300},
-        {"name":"Mevsim Salata","desc":"","image":"foto/mevsimsalata.jpeg","price":170},
-        {"name":"Çoban Salata","desc":"","image":"foto/çobansalata.jpeg","price":170},
-        {"name":"Roka Salata","desc":"","image":"foto/rokasalata.jpeg","price":170},
+        {"name":"Mevsim Salata","desc":"","image":"foto/mevsimsalata.jpeg","price":180},
+        {"name":"Çoban Salata","desc":"","image":"foto/çobansalata.jpeg","price":180},
+        {"name":"Roka Salata","desc":"","image":"foto/rokasalata.jpeg","price":180},
         {"name":"Gavurdağı Salata","desc":"","image":"foto/gavyrdağı.jpeg","price":225},
         {"name":"Peynir Tabağı","desc":"","image":"foto/peynirtabağı.jpeg","price":200},
         {"name":"Ezine Peynir","desc":"","image":"foto/ezine.jpeg","price":260},
@@ -220,9 +219,9 @@
     {"name": "Double Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 290},
     {"name": "Tek Vodka", "desc": "", "image": "https://mycocktailrecipes.com/api/media/file/vodka_tonic_cocktail-400x400.webp", "price": 200},
     {"name": "Duble Beylerbeyi Göbek Rakı", "desc": "", "image": "https://dogal.jp/cdn/shop/files/icksrp008teragold32048.png?v=1702107430&width=1500", "price": 280},
-    {"name": "Jack Daniels Duble Viski", "desc": "", "image": "https://veviski.com/wp-content/uploads/2024/01/Jack-Daniels-Bonded-scaled-e1706217489550.jpg", "price": 370},
-    {"name": "Kadeh Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 200},
-    {"name": "Tek Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 170},
+    {"name": "Jack Daniels Duble Viski", "desc": "", "image": "https://veviski.com/wp-content/uploads/2024/01/Jack-Daniels-Bonded-scaled-e1706217489550.jpg", "price": 350},
+    {"name": "Kadeh Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 170},
+    {"name": "Tek Şarap", "desc": "", "image": "https://www.coopwinespiritsbeer.com/wp-content/uploads/sites/3/2023/09/Red-Wine.jpg", "price": 120},
     {"name": "Çerez", "desc": "", "image": "https://www.muskoshop.com/besli-karisik-cerez-kg-karisik-kuruyemisler-1574-88-O.jpg", "price": 200}
     
   ]
@@ -235,7 +234,7 @@
           "products": [
             
            
-            {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 931},
+            {"name": "20 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 800},
             {"name": "35 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/3106a9d2-0d94-4ede-aa64-573abd37fda0.jpeg", "price": 931},
             {"name": "50 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/5579bad4-f4aa-4a34-94b9-34e985f97208.jpg", "price": 1309},
             {"name": "70 cl Tekirdağ Rakı", "desc": "", "image": "https://menu.myqrcodemenu.com/files/products/5579bad4-f4aa-4a34-94b9-34e985f97208.jpg", "price": 1645},
