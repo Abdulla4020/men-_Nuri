@@ -212,7 +212,7 @@
   "name": "Dubleler",
   "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=cover&w=400&q=80",
   "products": [
-    {"name": "Double Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 250},
+    {"name": "Double Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp"},
     {"name": "Tek Rakı", "desc": "", "image": "https://www.fokaibalikrestaurant.com/tema/genel/uploads/urunler/rak%C4%B11.webp", "price": 180},
     {"name": "Double Viski", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/09/viski-ve-buz.webp", "price": 350},
     {"name": "Tek Viski", "desc": "", "image": "https://milasgarden.menuqrkod.com/wp-content/uploads/2022/09/viski-ve-buz.webp", "price": 270},
