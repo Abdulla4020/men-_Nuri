@@ -8,8 +8,8 @@
         {"name":"Kuzu Kuşbaşı Tabak servis","desc":"160 gr","image":"foto/kuzukuşbaşı.jpeg","price":295},
         {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"foto/kuşbaşı.jpeg","price":295},
         {"name":"Ciğer Tabak Servis","desc":"160 gr","image":"foto/ciğer.jpeg","price":285},
-        {"name":"Tavuk But","desc":"300 gr","image":"foto/tavukbut.jpeg","price":220},
-        {"name":"Tavuk Göğüs","desc":"300 gr","image":"foto/gogus.jpeg","price":220},
+        {"name":"Tavuk But","desc":"300 gr","image":"foto/tavukbut.jpeg","price":200},
+        {"name":"Tavuk Göğüs","desc":"300 gr","image":"foto/gogus.jpeg","price":200},
         {"name":"Tavuk Pirzola","desc":"350 gr","image":"foto/tavukpirzola.jpeg","price":250},
         {"name":"Tavuk Kanat","desc":"300 gr","image":"foto/kanat.jpeg","price":260},
         {"name":"Fıstıklı Beyti","desc":"220 gr","image":"foto/fbeyti.jpeg","price":390},
@@ -17,9 +17,9 @@
         {"name":"Tavuk Beyti","desc":"300 gr","image":"foto/tavukbeyti.jpeg","price":200},
         
        
-        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":150},
+        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":160},
         {"name":"Kuşbaşı Dürüm","desc":"160 gr ","image":"foto/kuşnaşıdürüm.jpeg","price":200},
-        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":150},
+        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":160},
         {"name":"Kıyma  Dürüm","desc":"160 gr","image":"foto/kıymadurum.jpeg","price":190},
         
         {"name":"Ciğer Dürüm","desc":"160 gr","image":"https://www.mirzausta.com/wp-content/uploads/2021/01/maxresdefault-e1612083183996.jpg","price":170},
@@ -57,7 +57,7 @@
         
         {"name":"Steak","desc":"300 gr","image":"foto/biftek.jpeg","price":800},
       
-        {"name":"Et Pirzola","desc":"250 gr","image":"foto/etprizola.jpeg","price":450},
+        {"name":"Et Pirzola","desc":"250 gr","image":"foto/etprizola.jpeg","price":500},
         {"name":"Bonfile","desc":"300 gr","image":"foto/bonfile.jpeg","price":500},
         {"name":"Balık","desc":"","image":"foto/balık2.png","price":500},
         {"name":"Antrikot","desc":"300 gr","image":"foto/600antrikot.jpeg","price":600}
