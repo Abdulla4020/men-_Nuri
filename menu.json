@@ -17,16 +17,16 @@
         {"name":"Tavuk Beyti","desc":"300 gr","image":"foto/tavukbeyti.jpeg","price":200},
         
        
-        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":170},
-        {"name":"Kuşbaşı Dürüm","desc":"160 gr ","image":"foto/kuşnaşıdürüm.jpeg","price":220},
-        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":170},
-        {"name":"Kıyma  Dürüm","desc":"160 gr","image":"foto/kıymadurum.jpeg","price":210},
+        {"name":"Tavuk But Dürüm","desc":"160 gr","image":"foto/tavukbutdürüm.jpeg","price":200},
+        {"name":"Kuşbaşı Dürüm","desc":"160 gr ","image":"foto/kuşnaşıdürüm.jpeg","price":250},
+        {"name":"Tavuk Şiş Dürüm","desc":"160 gr","image":"foto/tavukdürüm.jpeg","price":200},
+        {"name":"Kıyma  Dürüm","desc":"160 gr","image":"foto/kıymadurum.jpeg","price":240},
         
         {"name":"Ciğer Dürüm","desc":"160 gr","image":"https://www.mirzausta.com/wp-content/uploads/2021/01/maxresdefault-e1612083183996.jpg","price":180},
         {"name":"Tepsi Et","desc":"250 gr","image":"foto/tepsiet.jpeg","price":440},
         
         {"name":"Kuşbaşı Tava","desc":"250 gr","image":"foto/kuşbaşıtava.jpeg","price":450},
-        {"name":"Kağıt Kebabı","desc":"200 gr","image":"foto/kağıtk.jpeg","price":380},
+        {"name":"Kağıt Kebabı","desc":"200 gr","image":"foto/kağıtk.jpeg","price":340},
         {"name":"Kuyruk Yağı","desc":"120 gr","image":"foto/kuyrukyağı.jpeg","price":200},
         
         {"name":"Fındık Lahmacun (5 adet)","desc":"","image":"foto/fındıklahmacun.jpeg","price":320},
@@ -59,7 +59,7 @@
       
         {"name":"Et Pirzola","desc":"250 gr","image":"foto/etprizola.jpeg","price":500},
         {"name":"Bonfile","desc":"300 gr","image":"foto/bonfile.jpeg","price":500},
-        {"name":"Balık","desc":"","image":"foto/balık2.png","price":500},
+        {"name":"Balık","desc":"","image":"foto/balık2.png","price":900},
         {"name":"Antrikot","desc":"300 gr","image":"foto/600antrikot.jpeg","price":600}
        
       ]
@@ -72,25 +72,25 @@
       "name": "Ali Nazik",
       "desc": "",
       "image": "foto/ali.jpeg",
-      "price": 290
+      "price": 300
     },
     {
       "name": "Tereyağlı Humus",
       "desc": "",
       "image": "foto/tereyağhumus.jpeg",
-      "price": 245
+      "price": 250
     },
     {
       "name": "Çiğ Köfte",
       "desc": "",
       "image": "foto/çiğköfte.jpeg",
-      "price": 290
+      "price": 300
     },
     {
       "name": "Patates Cipsi",
       "desc": "",
       "image": "foto/patatescipsi.jpeg",
-      "price": 190
+      "price": 210
     },
     {
       "name": "Çorba",
@@ -108,7 +108,7 @@
       "name": "Fırın Oruk",
       "desc": "",
       "image": "foto/fırınoruk.jpeg",
-      "price": 390
+      "price": 450
     },
     {
       "name": "Közleme",
@@ -127,7 +127,7 @@
       "name": "Kızartılmış Peynir",
       "desc": "",
       "image":"foto/kızartmalıkpeynir.jpeg",
-      "price": 300
+      "price": 230
     }
   ]
   },
@@ -135,41 +135,41 @@
       "name": "Soğuk Mezeler",
       "image": "https://parkbalik.com/wp-content/uploads/2025/08/soguk-meze-cesitleri-en-lezzetli-soguk-mezeler-1.webp",
       "products": [
-        {"name":"Zeytinyağlı Humus","desc":"","image":"foto/zeythumus.jpeg","price":180},
+        {"name":"Zeytinyağlı Humus","desc":"","image":"foto/zeythumus.jpeg","price":190},
       
-        {"name":"Süzme Yoğurt","desc":"","image":"foto/süzmey.jpeg","price":160},
+        {"name":"Süzme Yoğurt","desc":"","image":"foto/süzmey.jpeg","price":180},
         {"name":"Roka Yoğurtlama","desc":"","image":"foto/semizotu.jpeg","price":180},
        
-        {"name":"Havuç Yoğurtlama","desc":"","image":"foto/havuçyoğurt.jpeg","price":160},
+        {"name":"Havuç Yoğurtlama","desc":"","image":"foto/havuçyoğurt.jpeg","price":180},
        
-        {"name":"Patlıcan Yoğurtlama","desc":"","image":"foto/patlıcanyoğurt.jpeg","price":170},
-        {"name":"Biber Yoğurtlama","desc":"","image":"foto/biberygrtlma.jpeg","price":160},
-        {"name":"Zengin","desc":"","image":"foto/zengin.jpeg","price":160},
-        {"name":"Abagannüç","desc":"","image":"foto/abagannuc.jpeg","price":160},
+        {"name":"Patlıcan Yoğurtlama","desc":"","image":"foto/patlıcanyoğurt.jpeg","price":180},
+        {"name":"Biber Yoğurtlama","desc":"","image":"foto/biberygrtlma.jpeg","price":180},
+        {"name":"Zengin","desc":"","image":"foto/zengin.jpeg","price":180},
+        {"name":"Abagannüç","desc":"","image":"foto/abagannuc.jpeg","price":180},
         {"name":"Cevizli Biber","desc":"","image":"foto/cevizli.jpeg","price":195},
-        {"name":"Haydari","desc":"","image":"foto/haydari.jpeg","price":160},
-        {"name":"Prenses","desc":"","image":"foto/prenses.jpeg","price":160},
+        {"name":"Haydari","desc":"","image":"foto/haydari.jpeg","price":180},
+        {"name":"Prenses","desc":"","image":"foto/prenses.jpeg","price":180},
         
         
-        {"name":"Tarator","desc":"","image":"foto/tarator.jpeg","price":170},
-        {"name":"Katı Cacık","desc":"","image":"foto/katıcacık.jpeg","price":160},
-        {"name":"Barbunya","desc":"","image":"foto/barbunya.jpeg","price":190},
+        {"name":"Tarator","desc":"","image":"foto/tarator.jpeg","price":180},
+        {"name":"Katı Cacık","desc":"","image":"foto/katıcacık.jpeg","price":180},
+        {"name":"Barbunya","desc":"","image":"foto/barbunya.jpeg","price":200},
         {"name":"Rus Salatası","desc":"","image":"foto/russalata.jpeg","price":180},
 
 
         
-        {"name":"Zeytin Salatası","desc":"","image":"foto/zeytinsalat.jpeg","price":165},
-        {"name":"Kekik Salatası","desc":"","image":"foto/kekiksalat.jpeg","price":165},
-        {"name":"Küçük Order Tabağı","desc":"","image":"foto/korder.jpeg","price":220},
-        {"name":"Büyük Order Tabağı","desc":"","image":"foto/border.jpeg","price":300},
+        {"name":"Zeytin Salatası","desc":"","image":"foto/zeytinsalat.jpeg","price":180},
+        {"name":"Kekik Salatası","desc":"","image":"foto/kekiksalat.jpeg","price":180},
+        {"name":"Küçük Order Tabağı","desc":"","image":"foto/korder.jpeg","price":270},
+        {"name":"Büyük Order Tabağı","desc":"","image":"foto/border.jpeg","price":350},
         {"name":"Mevsim Salata","desc":"","image":"foto/mevsimsalata.jpeg","price":190},
         {"name":"Çoban Salata","desc":"","image":"foto/çobansalata.jpeg","price":200},
         {"name":"Roka Salata","desc":"","image":"foto/rokasalata.jpeg","price":190},
         {"name":"Gavurdağı Salata","desc":"","image":"foto/gavyrdağı.jpeg","price":225},
         {"name":"Peynir Tabağı","desc":"","image":"foto/peynirtabağı.jpeg","price":225},
         {"name":"Ezine Peynir","desc":"","image":"foto/ezine.jpeg","price":285},
-        {"name":"Cevizli Biber Salatası","desc":"","image":"foto/cevizlibibersalata.jpeg","price":200},
-        {"name":"Şakşuka","desc":"","image":"foto/şakşuka.jpeg","price":150}
+        {"name":"Cevizli Biber Salatası","desc":"","image":"foto/cevizlibibersalata.jpeg","price":210},
+        {"name":"Şakşuka","desc":"","image":"foto/şakşuka.jpeg","price":180}
       ]
     },
     
@@ -177,30 +177,30 @@
       "name": "İçecekler",
       "image": "https://drcem.org/upload/77_22-07-28-03-48-35Karbonatl%C4%B1%20%C4%B0%C3%A7ecekler.jpg",
       "products": [
-        {"name": "Kapalı Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 40},
-        {"name": "Açık Ayran", "desc": "", "image": "https://cakirestoran.com/wp-content/webp-express/webp-images/uploads/2024/10/caki-eksikler0014-1-scaled-1024x1024.jpg.webp", "price": 45},
-        {"name": "Sürahi Ayran", "desc": "", "image": "foto/ayran.jpg", "price": 140},
-        {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 65},
+        {"name": "Kapalı Ayran", "desc": "", "image": "foto/ayran1.jpg", "price": 50},
+        {"name": "Açık Ayran", "desc": "", "image": "https://cakirestoran.com/wp-content/webp-express/webp-images/uploads/2024/10/caki-eksikler0014-1-scaled-1024x1024.jpg.webp", "price": 50},
+        {"name": "Sürahi Ayran", "desc": "", "image": "foto/ayran.jpg", "price": 150},
+        {"name": "Kola", "desc": "33 ml kutu", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNMH8p89Pl_sLOnSs0WNUlNnfAtZctU_sjg&s", "price": 75},
         {"name": "Şalgam ", "desc": "33 ml", "image": "foto/salgam2.jpeg", "price": 50},
-        {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "foto/salgam1.jpg", "price": 85},
+        {"name": " Büyük Şalgam ", "desc": "1 litre", "image": "foto/salgam1.jpg", "price": 90},
         {"name": "Küçük Su", "desc": "", "image": "https://www.konhaber.com/sahifeler/2013/01/03/havadis/detayfc2b8faa8666faa18e3565bbe6a23bb8.jpg", "price": 15},
-        {"name": "Büyük Su ", "desc": "1.5 Litre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFz_ckWkcmMfrvaUETc0qEk6Y30olNPNB9g&s", "price": 30},
+        {"name": "Büyük Su ", "desc": "1.5 Litre", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFz_ckWkcmMfrvaUETc0qEk6Y30olNPNB9g&s", "price": 35},
         {"name": "Sade Soda", "desc": "", "image": "https://dunloppasta.com/wp-content/uploads/2023/06/beypazari_sade.webp", "price": 25},
-        {"name": "Kola ", "desc": "1 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 85},
-        {"name": "Kola ", "desc": "1.5 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 95},
-        {"name": "Kola ", "desc": "2.5 Litre", "image": "https://images.migrosone.com/hemen/product/08011700/08011700_1-802afc-1650x1650.jpg", "price": 110},
+        {"name": "Kola ", "desc": "1 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 100},
+        {"name": "Kola ", "desc": "1.5 Litre", "image": "https://cdn.cimri.io/market/260x260/pepsi-1-lt-kola-_861983.jpg", "price": 115},
+        {"name": "Kola ", "desc": "2.5 Litre", "image": "https://images.migrosone.com/hemen/product/08011700/08011700_1-802afc-1650x1650.jpg", "price": 130},
         
-        {"name": "Limonata", "desc": "", "image": "https://elizinn.com.tr/wp-content/uploads/2022/11/limonata-sq.jpg", "price": 90},
+        {"name": "Limonata", "desc": "", "image": "https://elizinn.com.tr/wp-content/uploads/2022/11/limonata-sq.jpg", "price": 120},
         
-        {"name": "Portakal Suyu", "desc": "Taze", "image": "https://cdn.medicalpark.com.tr/portakal-suyunun-faydalari.jpg", "price": 90},
-        {"name": "Meyve Suyu", "desc": "", "image": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/h3a/h7e/8888106582046/55778_0_521Wx521H", "price": 65},
-        {"name": "Fanta Kutu", "desc": "", "image": "https://www.fiemfidoner.com.tr/image/cache/catalog/urun_resimleri/icecekler/fanta_kutu-1233x823.jpg", "price": 65},
-        {"name": "Sprite Kutu", "desc": "", "image": "https://pizzarianpizza.com/wp-content/uploads/2024/12/sprite.png", "price": 65},
-        {"name": "CocaCola Zero", "desc": "", "image": "https://images.migrosone.com/sanalmarket/product/08010202/08010202_1-493823-1650x1650.jpg", "price": 65},
-        {"name": "Fanta ", "desc": "1 Litre", "image": "https://nasdoner.com/admin/public/img/products/fanta-1-lt.webp?ver=1.2.0", "price": 85},
-        {"name": "Sprite ", "desc": "1 Litre", "image": "https://img-bizimtoptan.mncdn.com/Content/Images/Thumbs/3286962.jpeg", "price": 85},
+        {"name": "Portakal Suyu", "desc": "Taze", "image": "https://cdn.medicalpark.com.tr/portakal-suyunun-faydalari.jpg", "price": 120},
+        {"name": "Meyve Suyu", "desc": "", "image": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/h3a/h7e/8888106582046/55778_0_521Wx521H", "price": 70},
+        {"name": "Fanta Kutu", "desc": "", "image": "https://www.fiemfidoner.com.tr/image/cache/catalog/urun_resimleri/icecekler/fanta_kutu-1233x823.jpg", "price": 75},
+        {"name": "Sprite Kutu", "desc": "", "image": "https://pizzarianpizza.com/wp-content/uploads/2024/12/sprite.png", "price": 75},
+        {"name": "CocaCola Zero", "desc": "", "image": "https://images.migrosone.com/sanalmarket/product/08010202/08010202_1-493823-1650x1650.jpg", "price": 75},
+        {"name": "Fanta ", "desc": "1 Litre", "image": "https://nasdoner.com/admin/public/img/products/fanta-1-lt.webp?ver=1.2.0", "price": 100},
+        {"name": "Sprite ", "desc": "1 Litre", "image": "https://img-bizimtoptan.mncdn.com/Content/Images/Thumbs/3286962.jpeg", "price": 100},
         {"name": "Redbull", "desc": "", "image": "https://spice-world.co.za/cdn/shop/files/136_2008_648ad6cd85fc77.96803654_drinks_20copy_800x.jpg?v=1750759801", "price": 120},
-        {"name": "Çörçıl", "desc": "", "image": "https://i.nefisyemektarifleri.com/2022/09/20/churchill-corcil-nedir-nasil-yapilir-7-onemli-faydasi.jpg", "price": 80}
+        {"name": "Çörçıl", "desc": "", "image": "https://i.nefisyemektarifleri.com/2022/09/20/churchill-corcil-nedir-nasil-yapilir-7-onemli-faydasi.jpg", "price": 100}
       ]
     },
     
