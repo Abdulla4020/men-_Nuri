@@ -137,7 +137,7 @@
       "products": [
         {"name":"Zeytinyağlı Humus","desc":"","image":"foto/zeythumus.jpeg","price":200},
       
-        {"name":"Süzme Yoğurt","desc":"","image":"foto/süzmey.jpeg","price":180},
+        {"name":"Süzme Yoğurt","desc":"","image":"foto/süzmey.jpeg","price":200},
         {"name":"Roka Yoğurtlama","desc":"","image":"foto/semizotu.jpeg","price":200},
        
         {"name":"Havuç Yoğurtlama","desc":"","image":"foto/havuçyoğurt.jpeg","price":200},
