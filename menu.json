@@ -6,7 +6,7 @@
       "products": [
         {"name":"Kıyma Tabak Servis","desc":"160 gr","image":"foto/kıyma.jpeg","price":320},
         {"name":"Kuzu Kuşbaşı Tabak servis","desc":"160 gr","image":"foto/kuzukuşbaşı.jpeg","price":340},
-        {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"foto/kuşbaşı.jpeg","price":320},
+        {"name":"Dana Kuşbaşı Tabak Servis","desc":"160 gr","image":"foto/kuşbaşı.jpeg","price":330},
         {"name":"Ciğer Tabak Servis","desc":"160 gr","image":"foto/ciğer.jpeg","price":330},
         {"name":"Tavuk But","desc":"300 gr","image":"foto/tavukbut.jpeg","price":250},
         {"name":"Tavuk Göğüs","desc":"300 gr","image":"foto/gogus.jpeg","price":250},
