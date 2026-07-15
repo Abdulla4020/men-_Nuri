@@ -358,7 +358,7 @@
       "image": "https://i.lezzet.com.tr/images-xxlarge-secondary/geleneksel-turk-tatlisi-isimleri-nelerdir-2bfd300a-f005-4147-b492-6082c4bdddb5.jpg",
       "products": [
         {"name":"Fıstıklı Atom","desc":"","image":"foto/tatlıatom.jpg","price":200},
-        {"name":"Künefe","desc":"","image":"foto/künefe.jpeg","price":160},
+        {"name":"Künefe","desc":"","image":"foto/künefe.jpeg","price":200},
         {"name":"Meyve Tabağı","desc":"","image":"foto/meyvetabağı.jpeg","price":150},
         {"name":"Kabak Tatlısı","desc":"","image":"foto/kabak.jpeg","price":100}
       ]
