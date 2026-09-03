@@ -459,11 +459,88 @@
     let menudata, activeCat = null;
     let allProducts = [];
     let currentPriceFilter = 'all';
+
+    // Google Sheets'ten yayınlanan fiyat listesinin CSV linki
+    const PRICE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1995PY9Yd3_aKRHr_rsSjFQWBrYhHQWEtl0Ic-fAep14/export?format=csv&gid=0";
+
+    // Basit CSV parser (tırnak içindeki virgülleri de doğru okur)
+    function csvSatirlariniAyikla(csvText) {
+      const lines = csvText.split(/\r?\n/).filter(l => l.trim().length > 0);
+      return lines.map(line => {
+        const result = [];
+        let cur = "";
+        let inQuotes = false;
+        for (let i = 0; i < line.length; i++) {
+          const ch = line[i];
+          if (ch === '"') {
+            if (inQuotes && line[i + 1] === '"') { cur += '"'; i++; }
+            else { inQuotes = !inQuotes; }
+          } else if (ch === ',' && !inQuotes) {
+            result.push(cur); cur = "";
+          } else {
+            cur += ch;
+          }
+        }
+        result.push(cur);
+        return result;
+      });
+    }
+
+    // "Kıyma  Dürüm" gibi fazla boşlukları da eşleştirebilmek için normalize eder
+    function isimNormalize(str) {
+      return (str || "").trim().replace(/\s+/g, " ").toLowerCase();
+    }
+
+    async function fiyatHaritasiOlustur() {
+      const priceMap = {};
+      try {
+        const res = await fetch(PRICE_SHEET_CSV_URL, { cache: "no-store" });
+        const csvText = await res.text();
+        const rows = csvSatirlariniAyikla(csvText);
+        // ilk satır başlık (Ürün Adı, Fiyat) olduğu için atlanıyor
+        for (let i = 1; i < rows.length; i++) {
+          const [rawName, rawPrice] = rows[i];
+          if (!rawName) continue;
+          const price = parseFloat(String(rawPrice).replace(",", "."));
+          if (!isNaN(price)) {
+            priceMap[isimNormalize(rawName)] = price;
+          }
+        }
+      } catch (err) {
+        console.warn("Fiyat tablosu çekilemedi, menu.json fiyatları kullanılıyor:", err);
+      }
+      return priceMap;
+    }
+
+    // Ürün listesine sheet'ten gelen fiyatları uygular (isim eşleşmesi ile)
+    function fiyatlariUygula(products, priceMap) {
+      products.forEach(p => {
+        const key = isimNormalize(p.name);
+        if (Object.prototype.hasOwnProperty.call(priceMap, key)) {
+          p.price = priceMap[key];
+        }
+      });
+    }
+
+    function menudakiTumFiyatlariGuncelle(categories, priceMap) {
+      categories.forEach(cat => {
+        if (cat.products) fiyatlariUygula(cat.products, priceMap);
+        if (cat.subcategories) {
+          cat.subcategories.forEach(sub => {
+            if (sub.products) fiyatlariUygula(sub.products, priceMap);
+          });
+        }
+      });
+    }
     
     async function menuyuGetir() {
       try {
         const res = await fetch("menu.json"); 
         menudata = await res.json();
+
+        // Google Sheets'ten güncel fiyatları çek ve menu.json üzerine yaz
+        const priceMap = await fiyatHaritasiOlustur();
+        menudakiTumFiyatlariGuncelle(menudata.categories, priceMap);
         
         // Tüm ürünleri toplama (global arama için)
         menudata.categories.forEach(cat => {
@@ -735,4 +812,3 @@
   </script>
 </body>
 </html>
-
